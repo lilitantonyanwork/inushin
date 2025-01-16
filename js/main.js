@@ -23,4 +23,10 @@ $(function (){
             $('nav').removeClass('sticky');
         }
     });
+    $('.btn-menu').on('click',function (){
+        $('.nav-content').toggle();
+        $(this).toggleClass('open');
+        $('.header-lang').toggleClass('open');
+        $('.header-top-left').toggleClass('open');
+    })
 })

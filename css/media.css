@@ -1,0 +1,980 @@
+@media screen and (max-width: 1200px){
+    .container{
+        max-width: 1100px;
+    }
+    .header-top-left p{
+        font-size: 16px;
+    }
+
+}
+@media screen and (max-width: 1100px){
+    .container{
+        max-width: 1024px;
+    }
+    .header-top-right p{
+        font-size: 16px;
+        margin-right: 20px;
+    }
+    .social-whatsapp{
+        font-size: 14px;
+        margin-right: 20px;
+    }
+    .lang-item{
+        font-size: 16px;
+    }
+    .menu-link{
+        font-size: 16px;
+    }
+    .sub-menu .menu-link{
+        font-size: 14px;
+    }
+    .about-content{
+        padding-bottom: 100px;
+    }
+    .certificate{
+        padding-bottom: 100px;
+    }
+    .product-piramida img{
+        right: 50px;
+    }
+
+}
+@media screen and (max-width: 1024px){
+    .header-top{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .banner-title{
+        font-size: 40px;
+
+    }
+    .banner-sub{
+        font-size: 30px;
+    }
+    .banner-text{
+        font-size: 20px;
+    }
+
+    .banner-right img{
+        width: 300px;
+    }
+    .banner-content{
+        gap: 30px;
+    }
+    .banner-info{
+        font-size: 22px;
+    }
+    .banner-features{
+        gap: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .feature-item{
+        width: calc(100% / 4 - 50px);
+    }
+    .about-content p{
+        font-size: 16px;
+    }
+    .about-title{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .effect-right img{
+        max-width: 280px;
+    }
+    .effect-left{
+        padding-left: 40px;
+    }
+    .certificate{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .certificate-left p{
+        font-size: 20px;
+    }
+    .company{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .company-title{
+        margin-bottom: 50px;
+    }
+    .store-title{
+        font-size: 40px;
+    }
+
+    .store-sub{
+        font-size: 28px;
+        line-height: 34px;
+        margin-bottom: 20px;
+    }
+    .store-text{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .store-features li{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .store-features li:after{
+        width: 23px;
+        height: 16px;
+        background-size: 100%;
+    }
+    .product-piramida img {
+        right: 50px;
+        max-width: 280px;
+        top: -50px;
+    }
+    .product-piramida{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .author{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .technologies{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 150px;
+    }
+    .author-text p{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .author-text p:last-child:after {
+
+        width: 800px;
+        height: 230px;
+    }
+    footer{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .header-top-left p{
+        font-size: 14px;
+    }
+    .header-top-right p{
+        font-size: 14px;
+    }
+    .nav-content{
+        padding-left: 50px;
+    }
+    .banner-logo{
+        width: 280px;
+        height: 80px;
+        background-size: 100% 100%;
+    }
+    .banner-logo img{
+        max-width: 150px;
+    }
+}
+@media screen and (max-width: 990px){
+    .nav-content {
+        padding-left: 35px;
+    }
+    .menu-link {
+        font-size: 14px;
+    }
+    .header-lang{
+        white-space: nowrap;
+    }
+    .banner-right img {
+        width: 200px;
+    }
+    .banner-title{
+        padding-left: 50px;
+    }
+    .banner-sub{
+        padding-left: 50px;
+    }
+    .banner-text{
+        padding-left: 50px;
+    }
+    .banner-content{
+        justify-content: space-between;
+        padding-right: 50px;
+    }
+    .banner-info{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .products{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .product-title{
+        margin-bottom: 40px;
+    }
+    .about-content-left{
+        padding-top: 50px;
+    }
+    .about-content-right{
+        padding-top: 50px;
+    }
+    .about-content{
+        padding-top: 150px;
+        background-size: 100% 100%;
+        background-position: top center;
+    }
+    .effect-item{
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .certificate-title{
+        font-size: 22px;
+    }
+    .certificate-left p {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .certificate-right img {
+        width: 300px;
+    }
+    .company-title{
+        font-size: 28px;
+        line-height: 38px;
+        margin-bottom: 30px;
+    }
+    .company-content p{
+        font-size: 16px;
+    }
+    .store{
+        margin-top: 40px;
+    }
+    .store-title{
+        margin-bottom: 0;
+    }
+    .store-sub{
+        font-size: 24px;
+    }
+    .store-features{
+        padding-left: 50px;
+    }
+    .product-piramida{
+        padding-top: 30px;
+    }
+    .product-piramida img{
+        top: -100px;
+    }
+    .piramida-info p{
+        font-size: 18px;
+
+    }
+    .piramida-title{
+        font-size: 30px;
+    }
+    .piramida-sub{
+        font-size: 18px;
+    }
+    .author-title{
+        font-size: 30px;
+    }
+    .author-text h4{
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .author-text h6{
+        font-size: 16px;
+    }
+    .author-text p{
+        font-size: 16px;
+    }
+    .author-text p:last-child:after {
+        width: 600px;
+    }
+    .technologies-title{
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    .technologies-video {
+        width: 600px;
+        height: 400px;
+    }
+    .technologies{
+        padding-bottom: 100px;
+    }
+    .certificate{
+        margin-bottom: 50px;
+    }
+
+}
+@media screen and (max-width: 900px){
+    .btn-menu{
+        display: flex;
+        background: url('../images/m-open.png') no-repeat right top;
+        height: 55px;
+        width: 60px;
+        border:none;
+        box-shadow: none;
+        transition-property: background-image, background-position, background-color, border-color, border-radius, color, font-size, font-style, font-weight, letter-spacing, line-height, text-align, box-shadow, text-shadow, opacity;
+        transition-duration: 1s;
+        transition-delay: 0s;
+        transition-timing-function: ease;
+    }
+    .btn-menu.open{
+        background-position: right bottom;
+    }
+    .header-top-right p{
+        display: none;
+    }
+    .nav-logo{
+        display: none;
+    }
+    .nav-content{
+        width: 380px;
+        height: 90vh;
+        background: #0D3D8D;
+        position: absolute;
+        right: 0;
+        padding-right: 0;
+        padding-left: 60px;
+        overflow: auto;
+        display: none;
+    }
+    .menu{
+        flex-direction: column;
+        padding: 0;
+        gap: 0;
+    }
+    nav.sticky{
+        background: none;
+    }
+
+    .menu > .menu-item:first-child {
+        padding-left: 0;
+    }
+    .collapsed{
+        max-height: unset;
+        position: relative;
+    }
+    .sub-menu .menu-item{
+        text-align: left;
+    }
+    .sub-menu .menu-link {
+        font-size: 16px;
+    }
+    .has-sub{
+        display: none;
+    }
+    .sub-menu-partners .sub-menu{
+        padding-bottom: 0;
+    }
+    .author-text p:last-child{
+        padding-right: 100px;
+    }
+    .author-info{
+        padding-left: 0;
+        gap: 30px;
+    }
+    .author-text p:last-child{
+        padding-left: 0;
+        padding-right: 0;
+        color: #4D4D4D;
+        padding-top: 0;
+    }
+    .author-text p:last-child:after{
+       display: none;
+    }
+    .author{
+        margin-bottom: 100px;
+    }
+    .header-top-content{
+        gap: 20px;
+    }
+    .header-top{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media screen and (max-width: 800px){
+    .banner-title{
+        font-size: 36px;
+        line-height: 43px;
+        font-family: Times, Times New Roman, Georgia, serif;
+        text-transform: uppercase;
+        padding-left: 20px;
+        font-weight: bold;
+    }
+    .banner-content {
+        gap: 10px;
+    }
+
+    .banner-sub{
+        font-size: 30px;
+        line-height: 36px;
+        text-transform: uppercase;
+        padding-left: 20px;
+        font-family: Times, Times New Roman, Georgia, serif;
+        text-align: center;
+    }
+    .banner-text{
+        font-size: 24px;
+        line-height: 29px;
+        font-weight: 400;
+        padding-left: 100px;
+    }
+    .banner-form{
+        max-width: 608px;
+        min-height: 146px;
+    }
+    .form-input{
+        width: 180px;
+        font-size: 13px;
+    }
+    .btn-yellow{
+        width: 180px;
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .form-title{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .banner-info {
+        font-size: 16px;
+    }
+    .product-title{
+        text-transform: uppercase;
+        font-size: 24px;
+        text-align: center;
+    }
+    .product-item img{
+        max-width: 300px;
+    }
+    .product-item-title{
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .product-item-price{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .about-content{
+        background-size: cover;
+        background-position: right center;
+        gap: 10px;
+        padding-bottom: 180px;
+    }
+    .about-title{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .about-content-left{
+        padding-left: 20px;
+        padding-bottom: 50px;
+    }
+    .about-content-right{
+        padding-right: 20px;
+    }
+    .about-content p {
+        font-size: 14px;
+    }
+    .about-effect{
+        margin-top: -100px;
+    }
+    .effect-right img{
+        margin-top: 0;
+    }
+    .effect-title{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .certificate-right img {
+        width: 190px;
+    }
+    .certificate-title {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+    .certificate-left p{
+        line-height: 18px;
+    }
+    .certificate{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .company{
+        margin-top: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .company-content{
+        flex-direction: column;
+    }
+    .company-left p:first-child{
+        padding-left: 200px;
+    }
+    .company-left p:last-child{
+        padding-right: 200px;
+        margin-top: 20px;
+    }
+    .company-text-with-bg{
+        margin-left: 200px;
+    }
+    .company-right p:last-child{
+        padding-right: 200px;
+        margin-top: 20px;
+    }
+    .company-content p.company-text-with-bg {
+        font-size: 14px;
+        line-height: 18px;
+        min-height: 50px;
+        max-width: 450px;
+        padding-bottom: 10px;
+        margin-left: auto;
+    }
+    .company-right{
+        display: flex;
+        flex-direction: column;
+    }
+    .store{
+        padding-top: 50px;
+        background-position: 0 90px;
+    }
+    .store-text{
+        display: none;
+    }
+    .store-sub{
+        color: #484848  ;
+    }
+    .store-features li{
+        color: #484848  ;
+    }
+    .header-top-left{
+        max-width: 260px;
+    }
+    .social-whatsapp{
+        font-size: 26px;
+        padding-left: 50px;
+    }
+    .social-tg{
+        margin-right: 10px;
+    }
+
+    .store-content{
+        padding-left: 20px;
+    }
+    .store-title {
+        margin-bottom: 30px;
+    }
+    .product-piramida{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .piramida-title{
+        font-weight: 400;
+    }
+    .product-piramida img {
+        top: 30px;
+    }
+    .piramida-sub{
+        padding-right: 200px;
+    }
+    .piramida-info p{
+        font-size: 14px;
+        text-align: justify;
+        line-height: 18px;
+        color: #4C4C4C;
+        font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+        font-weight: 400;
+    }
+    .piramida-info div:last-child p:first-child{
+        padding-top: 50px;
+    }
+    .author-title{
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .author{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 0;
+    }
+    .author-text{
+        margin-top: 0;
+    }
+    .author-info{
+        margin-top: 30px;
+    }
+    .author-text h4{
+        line-height: 34px;
+        font-size: 28px;
+        text-align: left;
+        color: #484848;
+        font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+    }
+    .author-text h6, .author-text p{
+        font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+    }
+    .technologies{
+        margin-top: 0;
+    }
+    .technologies-title{
+        font-size: 24px;
+        line-height: 29px;
+        padding-top: 140px;
+    }
+    .technologies-video{
+        max-width: 520px;
+        height: 296px;
+    }
+    .footer-content{
+        flex-direction: row-reverse;
+    }
+}
+
+@media screen and (max-width: 768px){
+.header-lang{
+    display: none;
+}
+    .header-lang.open{
+        display: block;
+        position: absolute;
+        right: 35px;
+        top: 71px;
+        z-index: 999999;
+    }
+    .social-whatsapp{
+        white-space: nowrap;
+    }
+    .product-item{
+        display: none;
+    }
+    .product-item:first-child{
+        display: flex;
+    }
+}
+@media screen and (max-width: 660px){
+    .social-whatsapp {
+        font-size: 22px;
+        padding-left: 40px;
+        margin-right: 10px;
+    }
+}
+@media screen and (max-width: 600px){
+    .header-top-left{
+        display: none;
+    }
+    .header-top-left.open{
+        position: absolute;
+        top: 70px;
+      /*display: block;*/
+        z-index: 99999;
+        max-width: 300px;
+        height: auto;
+    }
+    .header-top-left p{
+        line-height: 18px;
+    }
+    .btn-menu{
+        margin-left: auto;
+    }
+    .header-top-right{
+        width: 100%;
+    }
+    .header-top{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .nav-content{
+        width: 100%;
+        /*padding-top: 55px;*/
+        padding-left: 10px;
+    }
+
+
+    .banner-right{
+        display: none;
+    }
+    .banner-content{
+        width: 100%;
+        padding-right: 0;
+    }
+    .banner-left{
+        width: 100%;
+    }
+    .banner-logo{
+        margin: 0 auto;
+    }
+    .banner-title{
+        text-align: center;
+        padding-left: 0;
+    }
+    .banner-sub{
+        padding-left: 0;
+        text-align: center;
+    }
+    .banner-text{
+        text-align: center;
+        max-width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 30px;
+    }
+    .banner-info{
+        display: none;
+    }
+    .feature-item {
+        width: calc(100% / 2 - 50px);
+    }
+    .banner-features{
+        flex-wrap: wrap;
+    }
+    .products {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about-content{
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+        background: url('../images/m-fon.jpg') no-repeat;
+        background-size: cover;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .about-content-right{
+        padding-top: 0;
+    }
+    .about-content-left{
+        padding-left: 0;
+        padding-bottom: 0;
+    }
+    .about-effect {
+        margin-top: 0;
+        background: url('../images/m-fon-02.png') no-repeat;
+        background-size: cover;
+        flex-direction: column;
+        gap: 40px;
+        margin-bottom: 50px;
+    }
+    .effect-left{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 30px;
+    }
+    .effect-right{
+        max-width: 100%;
+        text-align: center;
+    }
+    .about-certificate{
+        flex-direction: column;
+
+    }
+    .certificate{
+        background: url('../images/m-fon-06.jpg') no-repeat;
+        background-size: cover;
+    }
+    .certificate-title{
+        color: #ffffff;
+    }
+    .certificate-left p{
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+    .certificate-right img {
+        width: 235px;
+    }
+    .banner-form{
+        width: calc(100% - 40px);
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .banner-form .form-row{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .form-input,  .banner-form .form-row label{
+        width: 100%;
+    }
+    .btn-yellow{
+        width: 100%;
+    }
+    .company{
+        background: url('../images/m--fon-03.jpg') no-repeat;
+        background-size: cover;
+        padding-top: 150px;
+        padding-bottom: 30px;
+    }
+    .company-title{
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .company-left p:first-child {
+        padding-left:0;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+    .company-left p:last-child{
+        padding-right: 0;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+    .company-content p.company-text-with-bg{
+        background: url('../images/m-fon-txt.png') no-repeat center center;
+        background-size: 100% 100%;
+        line-height: 20px;
+        font-size: 17px;
+        color: #0071BC;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    .company-right p:last-child{
+        padding-right: 0;
+        color: #fff;
+    }
+    .store{
+        padding-top: 0;
+        margin-top: 0;
+        background: url('../images/m--fon-03.jpg') no-repeat bottom center;
+        background-size: cover;
+    }
+    .store-title{
+        font-size: 30px;
+        color: #0D3D8D;
+        line-height: 36px;
+        padding-top: 30px;
+    }
+    .store-sub{
+        font-size: 20px;
+        color: #000;
+    }
+    .store-features li{
+        color: #000;
+        margin-bottom: 20px;
+        font-size: 18px;
+        padding-right: 30px;
+    }
+    .product-piramida{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .product-piramida img{
+        position: relative;
+        top: auto;
+        order: 2;
+        right: auto;
+        margin: 0 auto 30px;
+    }
+    .piramida-title{
+        order: 1;
+        margin-bottom: 30px;
+    }
+    .product-piramida .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .piramida-sub{
+        order: 3;
+        margin: 0  auto 30px;
+        padding-right: 0;
+
+    }
+    .piramida-info{
+        order: 4;
+        flex-direction: column;
+        gap: 0  ;
+    }
+    .piramida-info div:last-child p:first-child{
+        padding-top: 0;
+    }
+    .author-info{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .author-img{
+        text-align: center;
+    }
+    .author-text h4{
+        text-align: center;
+        line-height: 26px;
+        font-size: 22px;
+    }
+    .technologies{
+        background: url('../images/m-fon-04.jpg') no-repeat;
+        background-size: cover;
+        padding-bottom: 150px;
+        margin-bottom: 50px;
+    }
+    .technologies-video{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+        height: 250px;
+    }
+    .footer-content{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+}
+@media screen and (max-width: 480px){
+
+    .banner{
+        background: url('../images/m-head.jpg') no-repeat;
+        background-position: center -300px;
+        background-size: cover;
+        margin-top: 55px;
+        padding-bottom: 0;
+
+
+    }
+.banner .container{
+    display: flex;
+    flex-direction: column;
+}
+    .banner-content{
+        order: 1;
+        padding-top: 0;
+    }
+    .banner-form{
+        order: 4;
+        margin-top: 100px;
+    }
+    .banner-info{
+        order: 2;
+        display: block;
+        margin-top: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: left;
+    }
+    .banner-features{
+        order: 3;
+        padding-left: 10px;
+        padding-right: 10px;
+        gap: 20px;
+        justify-content: space-around;
+
+    }
+    .banner-title{
+        color: #0D3D8D;
+    }
+    .feature-title{
+        font-size: 14px;
+    }
+    .company-title{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .company{
+        padding-top: 100px;
+    }
+    .author-title{
+        font-size: 20px;
+        text-align: center;
+    }
+    .technologies{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .technologies-title{
+        padding-top: 100px;
+    }
+}
