@@ -851,3 +851,52 @@ footer p:last-child{
 .btn-menu{
     display: none;
 }
+.page{
+    margin-top: 65px;
+}
+.page .banner-logo{
+    justify-content: flex-start;
+    height: auto;
+    background: none;
+}
+.page-title{
+    text-align: center;
+    font-size: 28px;
+    color: #0E4194;
+    line-height: 34px;
+    font-family: Times, Times New Roman, Georgia, serif;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+}
+.page-text{
+    line-height: 26px;
+    text-align: justify;
+    font-size: 22px;
+    font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+    margin-bottom: 20px;
+}
+.page-sub{
+    line-height: 26px;
+    text-align: justify;
+    font-size: 22px;
+    font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.page-list li{
+    line-height: 26px;
+    text-align: justify;
+    font-size: 22px;
+    font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+    margin-bottom: 20px;
+}
+.page-list a {
+    color: #800080;
+    text-decoration: underline;
+}
+.nav-with-home .nav-content{
+    padding-right: 0;
+
+}

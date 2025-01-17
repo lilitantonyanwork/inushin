@@ -170,6 +170,10 @@
     .banner-logo img{
         max-width: 150px;
     }
+    .about-company{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 }
 @media screen and (max-width: 990px){
     .nav-content {
@@ -300,13 +304,14 @@
         margin-bottom: 50px;
     }
 
+
 }
 @media screen and (max-width: 900px){
     .btn-menu{
         display: flex;
-        background: url('../images/m-open.png') no-repeat right top;
+        background: url('../images/m-open.png') no-repeat center center;
         height: 55px;
-        width: 60px;
+        width: 127px;
         border:none;
         box-shadow: none;
         transition-property: background-image, background-position, background-color, border-color, border-radius, color, font-size, font-style, font-weight, letter-spacing, line-height, text-align, box-shadow, text-shadow, opacity;
@@ -314,9 +319,7 @@
         transition-delay: 0s;
         transition-timing-function: ease;
     }
-    .btn-menu.open{
-        background-position: right bottom;
-    }
+
     .header-top-right p{
         display: none;
     }
@@ -325,19 +328,21 @@
     }
     .nav-content{
         width: 380px;
-        height: 90vh;
+        max-height: 0;
+        height: auto;
         background: #0D3D8D;
         position: absolute;
         right: 0;
         padding-right: 0;
         padding-left: 60px;
         overflow: auto;
-        display: none;
+        transition: max-height .5s ease;
     }
     .menu{
         flex-direction: column;
         padding: 0;
         gap: 0;
+        height: 90vh;
     }
     nav.sticky{
         background: none;
@@ -388,6 +393,42 @@
         padding-left: 20px;
         padding-right: 20px;
     }
+    .about-company{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .page-title{
+        margin-bottom: 50px;
+        font-size: 24px;
+        margin-top: 100px;
+    }
+    .page-text{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .page-list li{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .page-sub{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .page .banner-logo{
+        display: none;
+    }
+    .nav-with-home .menu{
+        margin-right: 0;
+    }
+    .header-lang{
+        margin-right: 20px;
+    }
+    .social-whatsapp{
+        white-space: nowrap;
+    }
+    .header-top-left p{
+        line-height: 18px;
+    }
 }
 @media screen and (max-width: 800px){
     .banner-title{
@@ -397,6 +438,7 @@
         text-transform: uppercase;
         padding-left: 20px;
         font-weight: bold;
+       white-space: nowrap;
     }
     .banner-content {
         gap: 10px;
@@ -440,6 +482,7 @@
         text-transform: uppercase;
         font-size: 24px;
         text-align: center;
+        line-height: 31px;
     }
     .product-item img{
         max-width: 300px;
@@ -625,12 +668,9 @@
     .footer-content{
         flex-direction: row-reverse;
     }
-}
-
-@media screen and (max-width: 768px){
-.header-lang{
-    display: none;
-}
+    .header-lang{
+        display: none;
+    }
     .header-lang.open{
         display: block;
         position: absolute;
@@ -638,6 +678,10 @@
         top: 71px;
         z-index: 999999;
     }
+}
+
+@media screen and (max-width: 768px){
+
     .social-whatsapp{
         white-space: nowrap;
     }
@@ -647,10 +691,30 @@
     .product-item:first-child{
         display: flex;
     }
+    .header-top{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .social-whatsapp{
+        font-size:18px;
+    }
+    .banner-info{
+        display: none;
+    }
+    .banner-text{
+        padding-left: 150px;
+    }
+    .banner-logo{
+        width: 200px;
+    }
+    .banner-logo img {
+        max-width: 106px;
+        margin-top: 7px;
+    }
 }
 @media screen and (max-width: 660px){
     .social-whatsapp {
-        font-size: 22px;
+
         padding-left: 40px;
         margin-right: 10px;
     }
@@ -918,13 +982,19 @@
 
     .banner{
         background: url('../images/m-head.jpg') no-repeat;
-        background-position: center -300px;
-        background-size: cover;
-        margin-top: 55px;
+        background-position: top center;
+        background-size: contain;
+        margin-top: 0;
+        padding-top: 178px;
+        min-height: 669px;
         padding-bottom: 0;
 
 
     }
+    .banner-logo{
+        display: none;
+    }
+
 .banner .container{
     display: flex;
     flex-direction: column;
@@ -939,11 +1009,6 @@
     }
     .banner-info{
         order: 2;
-        display: block;
-        margin-top: 50px;
-        padding-left: 10px;
-        padding-right: 10px;
-        text-align: left;
     }
     .banner-features{
         order: 3;
@@ -955,6 +1020,10 @@
     }
     .banner-title{
         color: #0D3D8D;
+        white-space: wrap;
+        font-size: 40px;
+        line-height: 48px;
+        margin-top: -10px;
     }
     .feature-title{
         font-size: 14px;
@@ -976,5 +1045,42 @@
     }
     .technologies-title{
         padding-top: 100px;
+    }
+    .product-item:last-child{
+        display: flex;
+    }
+    .product-item-text{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .banner-sub{
+        font-size: 36px;
+        color: #0D3D8D;
+        line-height: 43px;
+        font-weight: bold;
+    }
+    .banner-text{
+        font-size: 22px;
+        line-height: 26px;
+        font-weight: bold;
+    }
+    .btn-menu{
+        background-size: 100%;
+    }
+    .feature-item img{
+        width: 82px;
+        height: 82px;
+    }
+    .banner-form{
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 0;
+        width: 100%;
+    }
+    .product-title{
+        margin-top: 20px;
+    }
+    .product-item img{
+        max-width: 100%;
     }
 }

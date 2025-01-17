@@ -7,6 +7,154 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/media.css">
 
+    <!-- Микроразметка JSON-LD для улучшения SEO -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "url": "https://www.inushin.com/",
+            "name": "Инюшина Лаборатория",
+            "description": "Оригинальная продукция лаборатории Инюшина. Продукты для здоровья и восстановления.",
+            "publisher": {
+                "@type": "Organization",
+                "name": "Инюшина Лаборатория",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.inushin.com//images/logo-u8915-fr.png",
+                    "width": 120,
+                    "height": 120
+                }
+            },
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://www.inushin.com/search?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+            }
+        }
+    </script>
+
+    <!-- Микроразметка для контактной информации -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "ContactPage",
+            "telephone": "+7 702 829 7530",
+            "contactOption": "OnlineChat",
+            "availableLanguage": ["Russian", "English"],
+            "url": "https://www.inushin.com/contacts"
+        }
+    </script>
+    <!-- Микроразметка JSON-LD для продукции -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "name": "Гидроплазма Инюшина",
+            "image": "https://www.inushin.com/images/gidroplasma-market-2.jpg",
+            "description": "Концентрат живой, природной воды",
+            "sku": "gidroplasma-inushina",
+            "offers": {
+                "@type": "Offer",
+                "url": "https://www.inushin.com/gidroplasma-inushina.html",
+                "priceCurrency": "KZT",
+                "price": "10000",
+                "priceSpecification": {
+                    "@type": "PriceSpecification",
+                    "priceCurrency": "RUB",
+                    "price": "2000"
+                },
+                "seller": {
+                    "@type": "Organization",
+                    "name": "Источник Здоровья"
+                }
+            }
+        },
+        {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Пирамида Инюшина ВНАЗ-8",
+        "image": "https://www.inushin.com/images/pirmyda-inushina-vnaz-8-1.jpg",
+        "description": "Вакуумный нейтрализатор аномальных зон",
+        "sku": "piramida-inushina-vnaz-8",
+        "offers": {
+            "@type": "Offer",
+            "url": "https://www.inushin.com/piramida-inushina-vnaz-8.html",
+            "priceCurrency": "KZT",
+            "price": "26500",
+            "priceSpecification": {
+            "@type": "PriceSpecification",
+            "priceCurrency": "RUB",
+            "price": "5300"
+            },
+        "seller": {
+            "@type": "Organization",
+            "name": "Источник Здоровья"
+            }
+          }
+        },
+        {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Бальзам Инюшина",
+        "image": "https://www.inushin.com/images/bioporfirin-inushina.jpg",
+        "description": "Биофизическая антиэнтропийная эмульсия",
+        "sku": "balzam-inyushina",
+        "offers": {
+            "@type": "Offer",
+            "url": "https://www.inushin.com/balzam-inyushina.html",
+            "priceCurrency": "KZT",
+            "price": "12500",
+            "priceSpecification": {
+                "@type": "PriceSpecification",
+                "priceCurrency": "RUB",
+                "price": "2500"
+            },
+        "seller": {
+                "@type": "Organization",
+                "name": "Источник Здоровья"
+            }
+          }
+        }
+    </script>
+    <!-- Микроразметка JSON-LD для контактной страницы -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "ContactPage",
+            "url": "https://inushin.com/contacts",
+            "telephone": "+7 702 829 7530",
+            "contactOption": "OnlineChat",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Павлодар",
+                "addressCountry": "Казахстан"
+            }
+        }
+    </script>
+    <!-- Микроразметка JSON-LD для компании -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Источник Здоровья",
+            "url": "https://inushin.com",
+            "logo": "https://inushin.com/images/logo.png",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+7 702 829 7530",
+                "contactType": "customer service",
+                "areaServed": "KZ",
+                "availableLanguage": "Russian"
+            },
+            "sameAs": [
+                "https://www.instagram.com/istochnikzdoroviya/",
+                "https://vk.com/istochnik.zdorovya",
+                "https://www.facebook.com/groups/352935982173322/",
+                "https://www.ok.ru/group/54343445643416",
+                "https://www.youtube.com/channel/UC7Y4IZchh3DVijxNrHel3dQ/videos"
+            ]
+        }
+    </script>
 </head>
 <body>
 <header>
@@ -21,8 +169,8 @@
                     <p>Служба поддержки клиентов
                     </p>
                     <div class="header-contacts df a-center">
-                        <a href="" class="social-item social-tg"></a>
-                        <a href="https://api.whatsapp.com/send?phone=77028297530" class="social-item social-whatsapp">+7 702 829 7530</a>
+                        <a href="" class="social-item social-tg" title="Telegram"></a>
+                        <a href="https://api.whatsapp.com/send?phone=77028297530" class="social-item social-whatsapp" title="WhatsApp">+7 702 829 7530</a>
                     </div>
                     <div class="header-lang">
                         <a href="" class="lang-item"><span>RU</span> | </a>
@@ -38,7 +186,7 @@
             <div class="nav-content df j-spc-btw">
                 <div class="nav-logo">
                     <a href="index.html">
-                        <img src="images/logo-u8915-fr.png" alt="logo-u8915-fr.png">
+                        <img src="images/logo-u8915-fr.png" alt="Логотип лаборатории Инюшина">
                     </a>
                 </div>
                 <ul class="menu df">
@@ -47,16 +195,16 @@
                         <div class="sub-menu-content collapsable collapsed">
                             <ul class="sub-menu">
                                 <li class="menu-item">
-                                    <a href="" class="menu-link">Миссия компании</a>
+                                    <a href="missiya-kompaniyi.html" class="menu-link">Миссия компании</a>
                                 </li>
                                 <li class="menu-item">
-                                    <a href="" class="menu-link">Биография Инюшина</a>
+                                    <a href="biografiya-inushina.html" class="menu-link">Биография Инюшина</a>
                                 </li>
                                 <li class="menu-item">
-                                    <a href="" class="menu-link">Документы</a>
+                                    <a href="dokumenty.html" class="menu-link">Документы</a>
                                 </li>
                                 <li class="menu-item">
-                                    <a href="" class="menu-link">Видео</a>
+                                    <a href="video.html" class="menu-link">Видео</a>
                                 </li>
                             </ul>
                         </div>
@@ -227,6 +375,16 @@
                 </div>
                 <div class="product-item">
                     <img src="images/bioporfirin-inushina.jpg" alt="gidroplasma-market-2.jpg">
+                    <h3 class="product-item-title">
+                        Бальзам Инюшина
+                    </h3>
+                    <p class="product-item-text">Биофизическая антиэнтропийная эмульсия</p>
+                    <h4 class="product-item-price">
+                        12 500 тенге. / 2500 руб.</h4>
+                    <a href="balzam-inyushina.html" class="product-item-more">Подробней</a>
+                </div>
+                <div class="product-item dn">
+                    <img src="images/balsam-inushina.jpg" alt="balsam-inushina">
                     <h3 class="product-item-title">
                         Бальзам Инюшина
                     </h3>
@@ -469,12 +627,16 @@
                     <a class="footer-socials-item" href="https://vk.com/istochnik.zdorovya">
                         <img src="images/vk.png" alt="vk">
                     </a>
+                    <a class="footer-socials-item" href="https://www.facebook.com/groups/352935982173322/">
+                        <img src="images/fb.png" alt="fb">
+                    </a>
                     <a class="footer-socials-item" href="https://www.ok.ru/group/54343445643416">
                         <img src="images/ok.png" alt="ok">
                     </a>
                     <a class="footer-socials-item" href="https://www.youtube.com/channel/UC7Y4IZchh3DVijxNrHel3dQ/videos">
                         <img src="images/youtube.png" alt="youtube">
                     </a>
+
                 </div>
             </div>
             <div class="footer-right">
