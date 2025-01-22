@@ -1619,3 +1619,87 @@ color: #800080;
     font-weight: bold;
     margin-top: 50px;
 }
+.piramida-vnaz-8 .page-banner .page-title{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 60px;
+    color: #0E4194;
+    line-height: 72px;
+    font-family: Times, Times New Roman, Georgia, serif;
+    font-weight: bold;
+}
+.piramida-vnaz-8 .page-banner .page-sub{
+    text-transform: uppercase;
+    color: #1B1464;
+    line-height: 58px;
+    font-size: 48px;
+    font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 100px;
+}
+.biotermion-page .banner-product .page-sub{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 43px;
+    font-size: 36px;
+    font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+}
+.biotermion-page .banner-product {
+    padding-right: 0;
+}
+.biotermion-page .page-title{
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 43px;
+    color: #0D3D8D;
+    font-weight: bold;
+    font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+    margin-bottom: 30px;
+}
+.biotermion-page .buy{
+    margin-bottom: 100px;
+}
+.biotermion-page     .buy-img img {
+    width: 300px;
+}
+.bioprofirin-banner{
+    background: url('../images/head-index.jpg') no-repeat center bottom;
+    background-size: cover;
+    min-height: 912px;
+}
+.bioprofirin-banner .banner-title{
+    text-transform: uppercase;
+    color: #0059A3;
+    line-height: 72px;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+.bioprofirin-banner .banner-sub{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 43px;
+    font-size: 36px;
+    font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.bioprofirin-banner .g-left, .bioprofirin-banner .g-right{
+    margin-top: 50px;
+}
+.bioprofirin-content .page-title{
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 43px;
+    color: #0D3D8D;
+    font-family: Times, Times New Roman, Georgia, serif;
+    margin-bottom: 30px;
+}
+.bioprofirin-content .buy-img img{
+    max-width: 300px;
+}
+.bioprofirin-content{
+    margin-bottom: 30px;
+}

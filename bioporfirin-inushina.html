@@ -1,10 +1,528 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Title</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <!-- Микроразметка JSON-LD для улучшения SEO -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "url": "https://www.inushin.com/",
+            "name": "Инюшина Лаборатория",
+            "description": "Оригинальная продукция лаборатории Инюшина. Продукты для здоровья и восстановления.",
+            "publisher": {
+                "@type": "Organization",
+                "name": "Инюшина Лаборатория",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.inushin.com//images/logo-u8915-fr.png",
+                    "width": 120,
+                    "height": 120
+                }
+            },
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://www.inushin.com/search?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+            }
+        }
+    </script>
+
+    <!-- Микроразметка для контактной информации -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "ContactPage",
+            "telephone": "+7 702 829 7530",
+            "contactOption": "OnlineChat",
+            "availableLanguage": ["Russian", "English"],
+            "url": "https://www.inushin.com/contacts"
+        }
+    </script>
+    <!-- Микроразметка JSON-LD для продукции -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "name": "Гидроплазма Инюшина",
+            "image": "https://www.inushin.com/images/gidroplasma-market-2.jpg",
+            "description": "Концентрат живой, природной воды",
+            "sku": "gidroplasma-inushina",
+            "offers": {
+                "@type": "Offer",
+                "url": "https://www.inushin.com/gidroplasma-inushina.html",
+                "priceCurrency": "KZT",
+                "price": "10000",
+                "priceSpecification": {
+                    "@type": "PriceSpecification",
+                    "priceCurrency": "RUB",
+                    "price": "2000"
+                },
+                "seller": {
+                    "@type": "Organization",
+                    "name": "Источник Здоровья"
+                }
+            }
+        },
+        {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Пирамида Инюшина ВНАЗ-8",
+        "image": "https://www.inushin.com/images/pirmyda-inushina-vnaz-8-1.jpg",
+        "description": "Вакуумный нейтрализатор аномальных зон",
+        "sku": "piramida-inushina-vnaz-8",
+        "offers": {
+        "@type": "Offer",
+        "url": "https://www.inushin.com/piramida-inushina-vnaz-8.html",
+        "priceCurrency": "KZT",
+        "price": "26500",
+        "priceSpecification": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "RUB",
+        "price": "5300"
+        },
+        "seller": {
+        "@type": "Organization",
+        "name": "Источник Здоровья"
+        }
+        }
+        },
+        {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Бальзам Инюшина",
+        "image": "https://www.inushin.com/images/bioporfirin-inushina.jpg",
+        "description": "Биофизическая антиэнтропийная эмульсия",
+        "sku": "balzam-inyushina",
+        "offers": {
+        "@type": "Offer",
+        "url": "https://www.inushin.com/balzam-inyushina.html",
+        "priceCurrency": "KZT",
+        "price": "12500",
+        "priceSpecification": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "RUB",
+        "price": "2500"
+        },
+        "seller": {
+        "@type": "Organization",
+        "name": "Источник Здоровья"
+        }
+        }
+        }
+    </script>
+    <!-- Микроразметка JSON-LD для контактной страницы -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "ContactPage",
+            "url": "https://inushin.com/contacts",
+            "telephone": "+7 702 829 7530",
+            "contactOption": "OnlineChat",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Павлодар",
+                "addressCountry": "Казахстан"
+            }
+        }
+    </script>
+    <!-- Микроразметка JSON-LD для компании -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Источник Здоровья",
+            "url": "https://inushin.com",
+            "logo": "https://inushin.com/images/logo.png",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+7 702 829 7530",
+                "contactType": "customer service",
+                "areaServed": "KZ",
+                "availableLanguage": "Russian"
+            },
+            "sameAs": [
+                "https://www.instagram.com/istochnikzdoroviya/",
+                "https://vk.com/istochnik.zdorovya",
+                "https://www.facebook.com/groups/352935982173322/",
+                "https://www.ok.ru/group/54343445643416",
+                "https://www.youtube.com/channel/UC7Y4IZchh3DVijxNrHel3dQ/videos"
+            ]
+        }
+    </script>
 </head>
 <body>
+<header>
+    <div class="header-top df">
+        <div class="container">
+            <div class="header-top-content df j-spc-btw">
+                <div class="header-top-left">
+                    <p>
+                        Оригинальная продукция лаборатории Инюшина!</p>
+                </div>
+                <div class="header-top-right df">
+                    <p>Служба поддержки клиентов
+                    </p>
+                    <div class="header-contacts df a-center">
+                        <a href="" class="social-item social-tg" title="Telegram"></a>
+                        <a href="https://api.whatsapp.com/send?phone=77028297530" class="social-item social-whatsapp" title="WhatsApp">+7 702 829 7530</a>
+                    </div>
+                    <div class="header-lang">
+                        <a href="" class="lang-item"><span>RU</span> | </a>
+                        <a href="" class="lang-item"><span>EN</span></a>
+                    </div>
+                    <button class="btn btn-menu"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="">
+        <div class="container">
+            <div class="nav-content df j-spc-btw">
+                <div class="nav-logo">
+                    <a href="index.html">
+                        <img src="images/logo-u8915-fr.png" alt="Логотип лаборатории Инюшина">
+                    </a>
+                </div>
+                <ul class="menu df">
+                    <li class="menu-item">
+                        <a href="" class="menu-link has-sub">О компании</a>
+                        <div class="sub-menu-content collapsable collapsed">
+                            <ul class="sub-menu">
+                                <li class="menu-item">
+                                    <a href="missiya-kompaniyi.html" class="menu-link">Миссия компании</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="biografiya-inushina.html" class="menu-link">Биография Инюшина</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="dokumenty.html" class="menu-link">Документы</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="video.html" class="menu-link">Видео</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <a href="" class="menu-link has-sub">Продукция</a>
+                        <div class="sub-menu-content collapsable collapsed  sub-menu-product">
+                            <ul class="sub-menu">
+                                <li class="menu-item">
+                                    <a href="gidroplasma-inushina.html" class="menu-link dn">Гидроплазма</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="" class="menu-link">Полимодулятор</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="" class="menu-link">Биосептик</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="" class="menu-link">Пирамида ВНАЗ-3</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="" class="menu-link">Пирамида ВНАЗ-8</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="" class="menu-link">Биотермион</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="" class="menu-link">Биопорфирин</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="" class="menu-link">Бальзам</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="" class="menu-link">Браслет V 2.0</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="" class="menu-link">Манжет</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="instrukcii.html" class="menu-link">Инструкции применения</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="chasto-zadavaemiye-voprosy.html" class="menu-link">Вопросы и ответы</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <a href="" class="menu-link has-sub">Отзывы</a>
+                        <div class="sub-menu-content collapsable collapsed sub-menu-review">
+                            <ul class="sub-menu ">
+                                <li class="menu-item">
+                                    <a href="" class="menu-link">Отзывы</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="" class="menu-link">Статьи</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <a href="" class="menu-link">Каталог</a>
 
+                    </li>
+                    <li class="menu-item">
+                        <a href="" class="menu-link has-sub">Партнёрам</a>
+                        <div class="sub-menu-content collapsable collapsed sub-menu-partners">
+                            <ul class="sub-menu ">
+                                <li class="menu-item">
+                                    <a href="" class="menu-link">Партнёрам</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="" class="menu-link">представители</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <a href="" class="menu-link">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<main class="page">
+    <section class="banner gidroplazma-banner bioprofirin-banner">
+        <div class="container large">
+            <div class="banner-content df f-wrap">
+                <div class="banner-left">
+                    <div class="banner-logo">
+                        <img src="images/logo.png" alt="logo.png">
+                    </div>
+                    <h1 class="banner-title">Биопорфирин Инюшина
+
+                    </h1>
+                    <h2 class="banner-sub">Биофизический продукт для здоровья.
+
+
+                    </h2>
+                </div>
+                <div class="gidroplazma-content df j-spc-btw">
+                    <div class="g-left">
+                        <div class="sale">
+                            <div class="sale-item df">
+                                <img src="images/52.png" alt="52">
+                                <div>
+                                    <h4 class="sale-title">Экономичный расход продукта!
+                                    </h4>
+                                    <p class="sale-text">30 мл. хватает на несколько месяцев.
+
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="sale-item df">
+                                <img src="images/51.png" alt="51">
+                                <div>
+                                    <h4 class="sale-title">Доставка в любой регион, страну!</h4>
+                                    <p class="sale-text">Возможна страховка заказа.
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="sale-item df">
+                                <img src="images/53.png" alt="53">
+                                <div>
+                                    <h4 class="sale-title">Прямая поставка от производителя!
+                                    </h4>
+                                    <p class="sale-text">Исключена реализация аналогов и подделок продукта.
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="sale-item df">
+                                <img src="images/50.png" alt="50">
+                                <div>
+                                    <h4 class="sale-title">Консультация по продукту!
+                                    </h4>
+                                    <p class="sale-text">Предоставляется квалифицированная консультация по продукту.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="g-center">
+                        <img src="images/bioporfirin-inushina.png" alt="bioporfirin">
+                    </div>
+                    <div class="g-right">
+                        <div class="banner-form">
+                            <h4 class="form-title">
+                                Оформите мне заказ.
+                            </h4>
+                            <form action="">
+                                <div class="form-row df j-spc-btw f-column">
+                                    <label for="name">
+                                        <input type="text" name="name" id="name" class="form-input" placeholder="Ваше имя">
+                                    </label>
+                                    <label for="phone">
+                                        <input type="tel" name="phone" id="phone"  class="form-input" placeholder="Ваш телефон">
+                                    </label>
+                                    <button type="submit" class="btn btn-yellow">Жду звонка.</button>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="bioprofirin-content">
+        <div class="container">
+            <div class="breadcrumbs">
+                <ul class="breadcrumbs-list df a-center">
+                    <li class="breadcrumbs-item">
+                        <a href="index.html" class="breadcrumbs-link">
+                            <img src="images/home.png" alt="home.png">
+                        </a>
+                    </li>
+                    <li class="breadcrumbs-item">
+                        <a href="produkciya.html" class="breadcrumbs-link">
+                            / <span>Каталог продукции лаборатории Инюшина</span>
+                        </a>
+                    </li>
+                    <li class="breadcrumbs-item">
+                        / <span> Биопорфирин Инюшина.</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="page-content ">
+                <h2 class="page-title">Биопорфирин
+
+                </h2>
+                <h4 class="page-sub">Биопорфирин
+                </h4>
+                <p class="page-text">Для использования в профилактике различного рода тяжелых заболеваний, в том числе для повышения устойчивости процессов деструкции при инвазии (проникновении) пред онкологических синдромов. Продукт имеет противовоспалительный, противоаллергический эффект, в том числе при аутоиммунных процессах.
+
+                </p>
+                <h4 class="page-sub">Состав:
+
+                </h4>
+                <p class="page-text">Продукт, в состав которого входит гемоглобин, прополис, хлорофилл в малых концентрациях, синтезирован из кластеров гидроплазмы с многочисленными векторами, которые ассоциируются с фотодинамическими активными термосенсибилизаторами, то есть могут осуществлять фотодинамическое окисление за счет ультрафиолетовых видимых участков спектра и инфракрасных излучений, поглощающихся фотосенсибилизатором.
+
+                </p>
+                <p class="page-text">Продукт имеет ряд микроэлементов, который находится в очень малой концентрации и является Ноу-Хау.
+
+                </p>
+                <p class="page-text">
+                    <i>"Биопорфирин Инюшина" не является БАД, пищевой добавкой, косметическим и лекарственным средством.
+
+                    </i>
+                </p>
+                <h4 class="page-sub">Способ применения:
+                </h4>
+                <p class="page-text">Биопорфирин назначается в виде двух капель в левую и правую ноздрю и одну каплю на заднюю верхнюю часть горла. Первый курс 30-40 дней. Прием утром перед едой и вечером за 2-3 часа до сна. Перерыв между первым и вторым курсом 10 дней. Второй курс назначается после закапывания 5 капель данного термосенсибилизатора на пяти литровую емкость биогенной классической воды с последующим отстоем 24-48 часов. Ежедневно пить утром перед едой по 30-40 мл.
+
+                </p>
+                <h4 class="page-sub">Условия хранения:
+                </h4>
+                <p class="page-text">Продукт годен в течение года с даты изготовления.
+                    <br>
+                    Хранится в тёмном месте при температуре +1°С +25°С.
+
+                </p>
+            </div>
+        </div>
+
+        <div class="buy">
+            <div class="container">
+
+                <div class="buy-content df j-center">
+                    <div class="buy-img">
+                        <img src="images/bioporfirin-inushina.png" alt="piramida">
+                    </div>
+                    <div class="buy-text">
+                        <h2 class="section-title">Купить Биопорфирин Инюшина
+
+
+                        </h2>
+
+                        <div class="actions df f-column">
+                            <a href="/rub/38-bioporfirin-inyushina.html?SubmitCurrency=1&id_currency=5" class="btn btn-blue">купить за 13 750 тенге</a>
+                            <a href="/rub/38-bioporfirin-inyushina.html" class="btn btn-blue">купить за 2750 рублей</a>
+                            <a href="produkciya.html" class="btn btn-blue">Каталог продукции</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contact-form">
+        <div class="banner-form">
+            <h4 class="form-title">
+                Заказать бесплатный звонок
+            </h4>
+            <form action="">
+                <div class="form-row df j-spc-btw">
+                    <label for="name3">
+                        <input type="text" name="name" id="name3" class="form-input" placeholder="Ваше имя">
+                    </label>
+                    <label for="phone3">
+                        <input type="tel" name="phone" id="phone3"  class="form-input" placeholder="Ваш телефон">
+                    </label>
+                    <button type="submit" class="btn btn-yellow">ЗАКАЗАТЬ</button>
+                </div>
+            </form>
+
+        </div>
+    </section>
+
+</main>
+<footer>
+    <div class="container small">
+        <div class="footer-content df j-spc-btw">
+            <div class="footer-left">
+                <div class="social-contacts df">
+                    <a href="" class="social-item  social-whatsapp "></a>
+                    <a href="https://api.whatsapp.com/send?phone=77028297530" class="social-item social-tg">+7 702 829 7530</a>
+                </div>
+                <div class="line"></div>
+                <div class="footer-socials df">
+                    <a class="footer-socials-item" href="https://www.instagram.com/istochnikzdoroviya/">
+                        <img src="images/insta.png" alt="insta">
+                    </a>
+                    <a class="footer-socials-item" href="https://vk.com/istochnik.zdorovya">
+                        <img src="images/vk.png" alt="vk">
+                    </a>
+                    <a class="footer-socials-item" href="https://www.facebook.com/groups/352935982173322/">
+                        <img src="images/fb.png" alt="fb">
+                    </a>
+                    <a class="footer-socials-item" href="https://www.ok.ru/group/54343445643416">
+                        <img src="images/ok.png" alt="ok">
+                    </a>
+                    <a class="footer-socials-item" href="https://www.youtube.com/channel/UC7Y4IZchh3DVijxNrHel3dQ/videos">
+                        <img src="images/youtube.png" alt="youtube">
+                    </a>
+
+                </div>
+            </div>
+            <div class="footer-right">
+                <p>Компания "Источник Здоровья".
+                    <br>
+
+                    БИН: 780316350213
+                    <br>
+
+                    Казахстан, г. Павлодар</p>
+                <p>© 2018. Все права защищены.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
