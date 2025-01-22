@@ -1090,6 +1090,7 @@
     .product-item img{
         max-width: 100%;
     }
+
 }
 @media screen and (max-width: 375px) {
     .banner-title{
@@ -1110,6 +1111,27 @@
     .feature-title{
         line-height: 18px;
     }
+    section.store{
+        display: none;
+    }
+    .company .store{
+        display: block;
+        background: none;
+    }
+    .store-content{
+        padding-left: 0;
+    }
+    .store-features li{
+        padding-right: 0;
+    }
+    .company{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .company-title {
+        font-size: 24px;
+        line-height: 34px;
+    }
 }
 @media screen and (max-width: 320px) {
 
@@ -1119,5 +1141,23 @@
     .banner-text{
         margin-top: 50px;
     }
+    .company-content p {
+        line-height: 18px;
+    }
 
+    .company-right p:last-child{
+        margin-bottom: 77px;
+    }
+    .store-title{
+        font-size: 27px;
+    }
+    .store-sub{
+        line-height: 24px;
+    }
+    .store-features {
+        padding-left: 43px;
+    }
+    .store-features li{
+        margin-bottom: 50px;
+    }
 }
