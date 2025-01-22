@@ -31,6 +31,9 @@ a{
 .f-wrap{
     flex-wrap: wrap;
 }
+.f-column{
+    flex-direction: column;
+}
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -231,6 +234,7 @@ nav.sticky .nav-logo{
     font-size: 52px;
     font-weight: 400;
     margin-bottom: 15px;
+    text-transform: uppercase;
 }
 .banner-sub{
     padding-left: 108px;
@@ -240,6 +244,7 @@ nav.sticky .nav-logo{
     color: #FFFFFF;
     font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
     margin-bottom: 22px;
+    text-transform: uppercase;
 }
 .banner-text{
     font-size: 30px;
@@ -352,8 +357,12 @@ nav.sticky .nav-logo{
     max-width: 1350px;
     width: 100%;
     margin: -190px auto 0;
-    padding-bottom: 435px;
+    padding-bottom: 120px;
+    margin-bottom: 100px;
     overflow: hidden;
+}
+.technologies .banner-form{
+    margin-top: 100px;
 }
 .technologies-title{
     text-transform: uppercase;
@@ -375,7 +384,7 @@ nav.sticky .nav-logo{
     height: 100%;
 }
 .author{
-    background: url('../images/fon-in.jpg') no-repeat left top;
+    background: url('../images/fon-in.jpg') no-repeat left 140px;
     max-width: 1350px;
     width: 100%;
     margin: 0 auto;
@@ -768,7 +777,7 @@ nav.sticky .nav-logo{
     padding-right: 100px;
 }
 .author-text{
-    margin-top: -20px;
+    margin-top: 20px;
 }
 .author-text p:last-child{
     position: relative;
@@ -829,15 +838,22 @@ footer p:last-child{
     margin-bottom: 30px;
 }
 .social-contacts .social-whatsapp{
-    margin-right: 0;
+    margin-right: 10px;
     width: 36px;
     height: 36px;
+    background: url('../images/1000-u12953-fr.png') no-repeat;
+    background-size: 100% 100%;
+    border-radius: 100%;
+    padding: 0;
+
+
 
 }
 .social-contacts .social-tg{
     padding-left: 45px;
     height: auto;
     width: auto;
+    background: url('../images/konakt-telegramm-u19787-fr.png') no-repeat;
     background-size: 36px 36px;
     font-size: 18px;
     color: #4C4C4C;
@@ -1172,4 +1188,433 @@ color: #800080;
     font-weight: bold;
     padding-left: 50px;
     padding-right: 50px;
+}
+.gidroplazma-banner{
+    background: url('../images/head.jpg') no-repeat center top;
+    background-size: cover;
+}
+.gidroplazma-banner .banner-left{
+    width: 100%;
+}
+.gidroplazma-banner   .banner-title{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 54px;
+    color: #0059A3;
+    line-height: 65px;
+    font-family: Times, Times New Roman, Georgia, serif;
+    font-weight: bold;
+    margin-top: 0;
+}
+.gidroplazma-banner  .banner-sub{
+    font-size: 36px;
+    line-height: 43px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1B1464;
+    font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+    font-weight: bold;
+    position: relative;
+}
+.g-left{
+    width: 412px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #F7931E;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 10px 10px 35px;
+}
+.sale-item{
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.sale-item img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+
+}
+.sale-title{
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 22px;
+    color: #0D3D8D;
+    font-weight: bold;
+    font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+}
+.sale-text{
+    font-size: 20px;
+    line-height: 24px;
+    font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+
+}
+.g-right .banner-form{
+    width: 365px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #FFFFFF;
+    background-color: #2E3192;
+    border-radius: 15px;
+    padding-bottom: 32px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.g-right .form-title{
+    font-size: 25px;
+    line-height: 31px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FCEE21;
+    font-family: Times, Times New Roman, Georgia, serif;
+    font-weight: bold;
+    border: 3px solid #fff;
+    margin-bottom: 10px;
+}
+.g-right  .banner-form form{
+    margin-top: 30px;
+}
+.g-right  .form-input{
+    width: 100%;
+}
+.g-right .banner-form .form-row{
+    gap: 30px;
+}
+
+.g-right .btn-yellow{
+    width: 100%;
+    margin-top: 40px;
+}
+.gidroplazma-content{
+    width: 100%;
+}
+.banner-features-title{
+    font-size: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 58px;
+    font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+    margin-top: 52px;
+    margin-bottom: 30px;
+}
+.product-info{
+    margin-top: 100px;
+    gap: 30px;
+}
+.product-info .product-title{
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 43px;
+    color: #0071BB;
+    font-family: Times, Times New Roman, Georgia, serif;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.product-info p{
+    font-size: 22px;
+    text-align: justify;
+    color: #4C4C4C;
+    line-height: 26px;
+    font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+    margin-bottom: 20px;
+}
+.product-features .section-title{
+    font-size: 36px;
+    line-height: 43px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #0071BB;
+    font-family: Times, Times New Roman, Georgia, serif;
+    font-weight: bold;
+}
+.product-features .section-text{
+    font-size: 20px;
+    text-align: justify;
+    color: #4C4C4C;
+    line-height: 24px;
+    font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+    max-width: 700px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.product-features-list{
+    gap: 70px 20px;
+}
+.product-feature-item{
+    width: calc(100%/3 - 20px);
+}
+.product-feature-title{
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #0071BC;
+    font-family: Times, Times New Roman, Georgia, serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.product-feature-title-content{
+    height: 310px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right:10px;
+}
+.product-feature-title-content p{
+    font-size: 18px;
+    text-align: left;
+    color: #FFFFFF;
+    line-height: 22px;
+    font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+}
+.product-feature-item:first-child .product-feature-title-content{
+    background: url('../images/1.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.product-feature-item:nth-child(2) .product-feature-title-content{
+    background: url('../images/2.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.product-feature-item:nth-child(3) .product-feature-title-content{
+    background: url('../images/3.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.product-feature-item:nth-child(4) .product-feature-title-content{
+    background: url('../images/4.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.product-feature-item:nth-child(5) .product-feature-title-content{
+    background: url('../images/5.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.product-feature-item:nth-child(6) .product-feature-title-content{
+    background: url('../images/6.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.product-features{
+    margin-bottom: 100px;
+}
+.product-author .author-title{
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #0071BB;
+    font-family: Times, Times New Roman, Georgia, serif;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+.product-author iframe{
+    width: 401px;
+    height: 205px;
+}
+.product-author .author-text p{
+    padding-left: 0;
+}
+.product-author .author-text h4, .product-author .author-text h6{
+    margin-left: -150px;
+}
+.product-author  .author-img img{
+    margin-bottom: 150px;
+}
+.polimodulator-page .page-banner{
+    background: url('../images/head-index.jpg') no-repeat center bottom;
+    background-size: cover;
+    height: auto;
+    min-height: 1172px;
+
+    border-bottom: 0;
+
+}
+.polimodulator-page .page-banner .page-title{
+    margin-top: 65px;
+    text-transform: uppercase;
+    color: #0059A3;
+    line-height: 72px;
+    font-size: 60px;
+    font-family: Times, Times New Roman, Georgia, serif;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding-left: 300px;
+    text-align: left;
+}
+.polimodulator-page .page-banner .page-sub{
+    text-transform: uppercase;
+    color: #0D3D8D;
+    line-height: 43px;
+    font-size: 36px;
+    font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 300px;
+}
+.banner-product{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 150px;
+    padding-top: 100px;
+}
+.polimodulator-page .small{
+    max-width: 1046px;
+}
+.polimodulator-page .page-content .page-title{
+    margin-top: 44px;
+    font-size: 24px;
+    line-height: 29px;
+    font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+    color: #000;
+    margin-bottom: 29px;
+}
+.page-content ul, .page-content ol{
+        line-height: 26px;
+        text-align: justify;
+        font-size: 22px;
+        font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+        margin-bottom: 20px;
+
+}
+ .buy{
+    margin-top: 50px;
+}
+.buy-content{
+    gap: 50px;
+    align-items: center;
+}
+.buy-text .section-title{
+    text-transform: uppercase;
+    color: #0D3D8D;
+    line-height: 36px;
+    font-size: 30px;
+    font-family: Times, Times New Roman, Georgia, serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 44px;
+}
+.actions{
+    align-items: center;
+    gap: 20px;
+}
+.btn-blue{
+    width: 386px;
+    min-height: 46px;
+    background-color: #2D549D;
+    border-radius: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 31px;
+    color: #FFFFFF;
+    font-family: Times, Times New Roman, Georgia, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bioseptik-page .page-banner{
+    background: url('../images/head-index.jpg') no-repeat center bottom;
+    background-size: cover;
+    min-height: 1050px;
+    border-bottom: 0;
+}
+.bioseptik-page .page-title{
+    text-transform: uppercase;
+    color: #0059A3;
+    line-height: 72px;
+    font-size: 60px;
+    font-family: Times, Times New Roman, Georgia, serif;
+    font-weight: bold;
+}
+.bioseptik-page .banner-product{
+    justify-content: space-between;
+}
+.bioseptik-page .banner-product .page-sub{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 48px;
+    font-size: 40px;
+    font-family: Times, Times New Roman, Georgia, serif;
+    font-weight: 400    ;
+}
+.bioseptik-page .banner-product h4{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 43px;
+    text-align: left;
+    font-size: 36px;
+    font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+    margin-top: 14px;
+    font-weight: 400;
+}
+.bioseptik-page .buy-content{
+    justify-content: center;
+    gap: 100px;
+}
+.bioseptik-page  .buy-img img{
+    width: 170px;
+}
+.piramida-vnaz-page .page-banner{
+    background: url('../images/fon-gays.jpg') no-repeat center -100px;
+    background-size: cover;
+    min-height: 700px;
+    border-bottom: 0;
+    position: relative;
+}
+.piramida-vnaz-page  .banner-product img{
+    position: absolute;
+    right: 100px;
+    bottom: -100px;
+}
+.piramida-vnaz-page .page-banner  .page-title{
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 60px;
+    color: #0E4194;
+    line-height: 72px;
+    font-family: Times, Times New Roman, Georgia, serif;
+    font-weight: bold;
+    margin-bottom: 71px;
+}
+.piramida-vnaz-page .page-banner .page-sub{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 58px;
+    font-size: 48px;
+    font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+    font-weight: bold;
+}
+.piramida-vnaz-page .page-content .page-title{
+    text-transform: uppercase;
+    color: #484848;
+    line-height: 36px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+    font-weight: 400;
+    margin-top: 87px;
+    margin-bottom: 30px;
+}
+.piramida-vnaz-page .page-content {
+    margin-bottom: 100px;
+}
+.piramida-vnaz-page .page-content h2:last-child{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 26px;
+    color: #C1272D;
+    line-height: 31px;
+    font-family: Times, Times New Roman, Georgia, serif;
+    font-weight: bold;
+    margin-top: 50px;
 }
