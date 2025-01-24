@@ -20,7 +20,18 @@
     .page .banner-logo{
         width: 200px;
     }
-
+    .home-en .product-piramida img{
+        right: 0;
+    }
+    .page .banner-logo{
+        background-size: 100%;
+    }
+    .page .banner-logo img{
+        width: 140px;
+    }
+    .news .page-banner .page-title{
+        margin-top: 100px;
+    }
 }
 @media screen and (max-width: 1100px){
     .container{
@@ -54,6 +65,24 @@
     }
     .menu{
         gap: 15px;
+    }
+    .home-en .banner-title{
+        padding-left: 150px;
+    }
+    .home-en .banner-sub{
+        padding-left: 150px;
+    }
+    .home-en .banner-text{
+        padding-left: 150px;
+    }
+    .about-effect{
+        padding-left: 10px;
+    }
+    .news .page-banner{
+        height: 420px;
+    }
+    .news .page-banner .page-title{
+        margin-top: 50px;
     }
 }
 @media screen and (max-width: 1024px){
@@ -192,6 +221,56 @@
         padding-right: 40px;
     }
     .about-author {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .home-en .product-piramida img{
+        right: 50px;
+    }
+    .home-en .banner-info{
+        font-size: 24px;
+        text-align: justify;
+        line-height: 29px;
+        font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+        margin-top: 20px;
+    }
+    .contacts{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .partners .page-content{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .predstaviteli h2{
+        font-size: 24px;
+        line-height: 30px;
+
+    }
+    .predstaviteli{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .catalog .page-content{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .catalog-list{
+        gap: 30px;
+    }
+    .catalog .product-item img{
+        width: 300px;
+        height: 300px;
+    }
+    .catalog .product-item-title{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .catalog .product-item-text{
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .news .page-content{
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -339,6 +418,51 @@
         line-height: 22px;
     }
 
+    .home-en .banner-right img{
+        width: 300px;
+    }
+    .home-en .banner-text{
+        padding-left: 10%;
+    }
+    .home-en .banner-sub{
+        padding-left: 10%;
+    }
+    .home-en .banner-title{
+        padding-left: 10%;
+    }
+    .page .banner-logo {
+        width: 200px;
+        height: 80px;
+    }
+    .page .page-content{
+        margin-top: 50px;
+    }
+    .contact-left .contact-item{
+        font-size: 20px;
+        text-align: left;
+        padding-left: 50px;
+    }
+    .contact-left a{
+        font-size: 20px;
+    }
+    .contact-right p{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .contact-right h4{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .contact-right h2{
+        margin-left: 0;
+    }
+    .contact-right h2{
+        font-size: 16px;
+    }
+    .contact-left h2{
+        font-size: 16px;
+        text-align: center;
+    }
 }
 @media screen and (max-width: 900px){
     .nav-with-home .nav-content{
@@ -477,6 +601,301 @@
         line-height: 22px;
         text-align: left;
     }
+    .home-en .header-top-left .top-text{
+        font-size: 14px;
+    }
+    .home-en .header-top-left p{
+        font-size: 14px;
+    }
+    .home-en .btn-menu{
+        display: none;
+    }
+    .home-en .banner-title{
+        font-size: 38px ;
+        line-height: 46px;
+        padding-left: 150px;
+    }
+    .home-en .banner-sub{
+        font-size: 30px ;
+        line-height: 36px;
+        padding-left: 150px;
+    }
+    .home-en .banner-text{
+        font-size: 32px ;
+        line-height: 38px;
+        padding-left: 150px;
+    }
+
+    .home-en .banner-content{
+        justify-content: center;
+        gap: 30px;
+    }
+    .home-en .banner-right img{
+        width: 200px;
+    }
+    .home-en .banner{
+        padding-bottom: 100px;
+    }
+    .home-en .banner-info{
+        max-width: 100%;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    .home-en .partnership-content{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .home-en .partnership-content img{
+        width: 250px;
+    }
+    .home-en .partnership-content h2{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .home-en .partnership-content h3{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .home-en .partnership-content h4{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .home-en .technologies{
+        margin-bottom: 30px;
+    }
+    .home-en .partnership-content img{
+        margin-top: -100px;
+    }
+    .home-en .partnership-content{
+        margin-bottom: 50px;
+    }
+   .home-en .effect-right{
+       width: 296px;
+   }
+    .home-en .effect-left{
+        width: calc(100% - 310px);
+        padding-left: 0;
+    }
+    .home-en .effect-title{
+        font-weight: 400;
+    }
+    .home-en li{
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: 400;
+    }
+    .home-en .certificate-left p{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .home-en .certificate-right img{
+        width: 200px;
+    }
+    .home-en .certificate{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .home-en .certificate-title{
+        margin-top: -15px;
+    }
+    .home-en .company-title{
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+    .home-en .company-content p{
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .home-en .store-title{
+        font-size: 36px;
+        line-height: 43px;
+    }
+    .home-en .store-sub{
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .store-content{
+        padding-left: 10px;
+    }
+    .home-en .store-text{
+        display: none;
+    }
+    .home-en .store-features li{
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: bold;
+    }
+    .home-en .product-piramida {
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+    .home-en .piramida-sub{
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+    .home-en .piramida-info p{
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .home-en .author-title{
+        font-size: 22px;
+        line-height: 29px;
+    }
+    .home-en .author-text h4{
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .author{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .home-en .author{
+        margin-bottom: 0;
+    }
+    .home-en .technologies-title{
+        padding-top: 150px;
+    }
+    .technologies-video{
+        width: 450px;
+        height: 280px;
+    }
+    .home-en .technologies{
+        margin-top: 0;
+    }
+    .page .page-content{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .contact-left{
+        order: 2;
+        max-width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0 20px;
+        justify-content: center;
+    }
+    .contact-left h2{
+        width: 100%;
+    }
+    .contact-center{
+        order: 3;
+        position: absolute;
+        top: 100%;
+        z-index: 99;
+    }
+    .contact-right{
+        order: 1;
+        max-width: 300px;
+        margin-top: 50px;
+
+    }
+    .partners{
+        padding-top: 10px;
+    }
+    .partner-img{
+        width: 200px;
+    }
+    .partners .page-sub{
+        font-size: 20px;
+        line-height: 29px;
+        margin-bottom: 15px;
+    }
+    .partners li{
+        font-size: 20px;
+    }
+    .catalog .page-title{
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 30px;
+    }
+    .catalog .page-sub{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .faq-page .page-banner{
+        background: none;
+        height: auto;
+        border-bottom: 0;
+    }
+    .faq-page .breadcrumbs{
+        display: none;
+    }
+    .faq-page .page-sub{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .faq-page .page-content{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .faq-title{
+        margin-bottom: 10px;
+    }
+    .faq-page iframe{
+        max-width: 512px;
+        width: 100%;
+
+    }
+    .news .page-banner{
+        background: none;
+        height: auto;
+    }
+    .news .page-banner .page-title{
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 30px;
+        color: #0E4194;
+        line-height: 36px;
+        font-family: Times, Times New Roman, Georgia, serif;
+        font-weight: bold;
+        margin-top: 130px;
+        margin-bottom: 0;
+    }
+    .news .page-content .page-title{
+        margin-top: 30px;
+        text-transform: uppercase;
+        line-height: 26px;
+        text-align: center;
+        font-size: 22px;
+        font-family: Times, Times New Roman, Georgia, serif;
+        font-weight: bold;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .news-item h4{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .news-item p{
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 40px;
+    }
+    .otziv-page .page-title{
+        margin-top: 130px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .otziv-page .page-sub{
+        font-size: 24px;
+        margin-top: 60px;
+    }
+    .dozirovka-page .page-banner{
+        height: auto;
+        background: none;
+        border-bottom: 0;
+    }
+    .dozirovka-page .page-content .page-title{
+        margin-top: 50px;
+    }
+    .dozirovka-page .page-content{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
 }
 @media screen and (max-width: 800px){
     .banner-title{
@@ -727,6 +1146,20 @@
         top: 71px;
         z-index: 999999;
     }
+    .home-en .header-top-left{
+        max-width: unset;
+    }
+    .home-en .store{
+        background-position: top center;
+    }
+    .otziv-page img{
+        max-width: 100%;
+    }
+    .otziv-page iframe{
+        max-width: 500px;
+        width: 100%;
+    }
+
 }
 
 @media screen and (max-width: 768px){
@@ -760,12 +1193,93 @@
         max-width: 106px;
         margin-top: 7px;
     }
+    .partners .page-title{
+        font-size: 24px;
+    }
+    .partners h2.page-sub{
+        margin-bottom: 20px;
+    }
+    .predstaviteli .page-title{
+        margin-bottom: 50px;
+        font-size: 28px;
+    }
+    .predstaviteli .page-title:nth-child(3){
+        margin-top: 0;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        color: #0D3D8D;
+        line-height: 31px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 26px;
+        font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+    }
+    .predstaviteli .page-content{
+        margin-top: 0px;
+    }
+
+    .catalog .product-item-text{
+        max-width: 300px;
+    }
+    .catalog-list{
+        gap: 20px;
+    }
+    .catalog .product-item{
+        width: calc(100%/2 - 10px);
+    }
+    .catalog .btn-blue{
+        font-size: 24px;
+        line-height: 26px;
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .catalog .product-item-text{
+        font-size: 20px;
+        line-height: 24px;
+    }
 }
 @media screen and (max-width: 660px){
     .social-whatsapp {
 
         padding-left: 40px;
         margin-right: 10px;
+    }
+    .home-en .header-top-left .top-text{
+        display: none;
+    }
+    .home-en .header-top-left p{
+        padding-top: 0;
+        line-height: 16px;
+    }
+    .home-en .banner-right img{
+        width: 150px;
+    }
+    .home-en .banner-title{
+        padding-left: 50px;
+    }
+    .home-en .banner-sub{
+        padding-left: 50px;
+        font-size: 24px;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    .home-en .banner-text{
+        padding-left: 50px;
+        font-size: 24px;
+
+    }
+    .home-en .certificate-title {
+        margin-top: 0;
+    }
+    .catalog-list{
+        flex-direction: column;
+    }
+    .catalog .product-item{
+        width: 100%;
+    }
+    .catalog .btn-blue{
+        max-width: 380px;
     }
 }
 @media screen and (max-width: 600px){
@@ -903,8 +1417,12 @@
         align-items: center;
         gap: 10px;
     }
-    .form-input,  .banner-form .form-row label{
+    .form-input,  .banner-form .form-row label, textarea{
         width: 100%;
+    }
+    .contacts textarea{
+        width: 100%;
+
     }
     .btn-yellow{
         width: 100%;
@@ -1035,6 +1553,94 @@
         width: 400px;
         height: 200px;
     }
+    .home-en .banner-title{
+        padding-left: 0;
+    }
+    .home-en .banner-sub{
+        text-align: center;
+        padding-left: 0;
+    }
+    .home-en .banner-text{
+        text-align: center;
+        padding-left: 0;
+    }
+    .about-content{
+        min-height: unset;
+    }
+    .home-en .effect-left{
+        width: 100%;
+    }
+    .home-en .effect-right{
+        width: 100%;
+    }
+    .home-en .certificate{
+        display: none;
+    }
+    .home-en .store {
+        background: url('../images/fon-gays.jpg') no-repeat center center;
+    }
+    .home-en .company-left p{
+        margin-bottom: 50px;
+    }
+    .home-en .company-right p{
+        margin-bottom: 50px;
+    }
+    .partnership > .container{
+        display: none;
+    }
+    .partnership .certificate{
+        display: block;
+    }
+    .partners .text-with-img{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .partner-img{
+        display: block;
+        margin: 0 auto;
+    }
+    .partners{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .partners .btn-registration{
+        font-size: 20px;
+        line-height: 24px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .catalog .page-title{
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+
+    .catalog .page-sub{
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 40px;
+    }
+    .catalog .product-item-title{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .catalog .product-item-text{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .catalog .btn-blue{
+        font-size: 20px;
+    }
+    .catalog .product-item{
+        margin-bottom: 20px;
+    }
+    .text-with-img-right{
+        flex-direction: column;
+    }
+    .page .page-title{
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 @media screen and (max-width: 480px){
     .page .page-text{
@@ -1151,7 +1757,160 @@
     .product-item img{
         max-width: 100%;
     }
+    .home-en .banner{
+        background: url('../images/m-head (1).jpg') no-repeat center center;
+        background-size: cover;
+    }
+    .home-en .banner-title{
+        color: #fff;
+        padding-top: 50px;
+    }
+    .home-en .banner-sub{
+        color: #fff;
+    }
+    .home-en .banner-text{
+        margin-top: 0;
+        color: #fff;
+        margin-bottom: 50px ;
+    }
+    .home-en .banner{
+        padding-top: 50px;
+    }
+    .home-en .banner-logo{
+        display: flex;
+    }
+    .home-en .product-title{
+        margin-top: 30px;
+    }
+    .home-en .company{
+        background-position: center;
+    }
+    .contacts{
+        background: url('../images/m-kontakt.png') no-repeat center center;
+        background-size: cover;
+    }
+    .contact-right{
+       width: 100%;
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .contact-right h2{
+    font-size: 30px;
+    color: #666666;
+    line-height: 36px;
+        text-align: left;
+}
+    .contact-right h4{
+        line-height: 22px;
+        font-size: 18px;
+        font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+        margin-bottom: 20px;
+    }
+    .contact-right p{
+        line-height: 22px;
+        font-size: 18px;
+        font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+        margin-bottom: 20px;
+    }
+    .contact-left .contact-item{
+        display: none;
+    }
+    .contact-left{
+        flex-direction: column;
+    }
+    .contacts{
+        padding-bottom: 40px;
+    }
+    .contact-left .contact-item.contact-tg{
+        display: block;
+        font-size: 14px;
+    }
+    .contact-left .contact-item.contact-mail{
+        display: block;
+        font-size: 14px;
+    }
+    .contacts  .page-content {
+        gap: 20px;
+    }
 
+    .contact-left h2{
+        display: none;
+    }
+    .map{
+        height: 379px;
+        background-position: center bottom;
+    }
+    .contacts .banner-form .form-row{
+        gap: 10px;
+    }
+    .contacts{
+        z-index: 9;
+    }
+    .contacts .contact-center{
+        top: 800px;
+    }
+    .contact-footer{
+        padding-top: 500px;
+    }
+    .partners .page-sub{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .predstaviteli h2{
+        font-size: 20px;
+        text-align: left;
+    }
+    .predstaviteli .page-title:nth-child(3){
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .faq-page .page-banner{
+        background: url('../images/m-head-gp-01.jpg') no-repeat center center;
+        background-size: cover;
+        height: 160px;
+    }
+    .faq-page .page-banner .page-title{
+        margin-top: 0;
+        padding-top: 50px;
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+    .news-item{
+        flex-direction: column;
+    }
+    .news-info p{
+        flex-direction: column;
+        display: flex ;
+       gap: 10px;
+    }
+    .news .page-content .page-title{
+        font-size: 18px;
+        line-height: 22px;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .news .page-banner .page-title{
+        font-size: 28px;
+        margin-top: 100px;
+    }
+    .dozirovka-page .page-banner{
+        height: 200px;
+        background: url('../images/m-head-gp-01.jpg') no-repeat center center;
+        background-size: cover;
+        border-bottom: 0;
+    }
+    .dozirovka-page .page-banner .page-title{
+        margin-top: 0;
+        font-size: 24px;
+        line-height: 28px;
+        padding-top: 50px;
+    }
+    .dozirovka-page .page-content .text-with-img img{
+        float: none;
+        margin: 0 auto 10px;
+        display: block;
+    }
 }
 @media screen and (max-width: 425px){
     .banner-text{
@@ -1239,5 +1998,43 @@
     }
     .store-features li{
         margin-bottom: 50px;
+    }
+    .home-en .banner{
+        background-position: top center;
+    }
+    .home-en  .banner-features{
+        padding-top: 20px;
+    }
+    .contact-right h2{
+        white-space: nowrap;
+        font-size: 24px;
+    }
+    .contacts .banner-form{
+        width: 100%;
+    }
+    .contacts{
+        background-position: center bottom;
+    }
+    .contact-right{
+        margin-top: 30px;
+    }
+    .contacts .form-title{
+        font-size: 18px;
+    }
+    .contacts .contact-center{
+        top: 850px;
+    }
+    .g-recaptcha{
+        display: none;
+    }
+    .contact-footer {
+        padding-top: 400px;
+    }
+    .partners{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .partners .page-title{
+        margin-top: 20px;
     }
 }
