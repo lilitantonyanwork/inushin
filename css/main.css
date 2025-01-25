@@ -2730,3 +2730,10 @@ color: #800080;
  display: flex;
     justify-content: space-between;
 }
+.manjet-page .page-banner{
+    overflow: hidden;
+}
+.manjet-page .page-banner .banner-product{
+    padding-left: 20px;
+
+}

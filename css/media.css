@@ -5,6 +5,24 @@
     }
 }
 @media screen and (max-width: 1200px){
+    .gidroplazma-content{
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 20px
+    }
+    .g-right .banner-form{
+        max-width:339px;
+        width: 100%;
+    }
+    .piramida-vnaz-page .banner-product img{
+        right: 50px;
+        width: 300px;
+        bottom: 0;
+    }
+    .piramida-vnaz-page .page-banner .page-sub{
+        color: #0E4194;
+    }
+
     .container{
         max-width: 1100px;
     }
@@ -32,8 +50,52 @@
     .news .page-banner .page-title{
         margin-top: 100px;
     }
+    .video-content iframe{
+        width: 100%;
+    }
+    .manjet-page .page-banner .banner-product{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .manjet-page .page-banner .banner-product img{
+        width: 350px;
+    }
+    .manjet-page .page-banner .banner-product p{
+        padding-top: 80px;
+    }
 }
 @media screen and (max-width: 1100px){
+    .gidroplazma-content .g-center img{
+        width: 300px;
+    }
+    .polimodulator-page .breadcrumbs{
+        padding-left: 20px;
+    }
+    .polimodulator-page .page-content{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .bioseptik-page .breadcrumbs{
+        padding-left: 20px;
+    }
+    .bioseptik-page .page-content{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .bioseptik-page .banner-product {
+        padding-right: 50px;
+        padding-left: 30px;
+    }
+    .biotermion-page .banner-product img{
+        width: 300px;
+    }
+    .biotermion-page .banner-product{
+        padding-top: 0;
+    }
+    .biotermion-page .page-banner{
+        min-height: 700px;
+    }
+
     .container{
         max-width: 1024px;
     }
@@ -83,6 +145,26 @@
     }
     .news .page-banner .page-title{
         margin-top: 50px;
+    }
+    .video-list{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .documents-page{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .piramida-vnaz-page .page-banner{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .piramida-vnaz-page .breadcrumbs{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .piramida-vnaz-page .page-content{
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 @media screen and (max-width: 1024px){
@@ -271,6 +353,29 @@
         line-height: 26px;
     }
     .news .page-content{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .rekomendacii .page-content{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .rekomendacii .breadcrumbs{
+        padding-left: 20px;
+    }
+    .video-item .video-title{
+        margin-top: 0;
+    }
+    .video-page .breadcrumbs{
+        display: none;
+    }
+    .document-title{
+        font-size: 20px
+    }
+    .documents-page .video{
+        margin-bottom: 50px;
+    }
+    .bioprofirin-content{
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -463,8 +568,265 @@
         font-size: 16px;
         text-align: center;
     }
+    .polimodulator-page .banner-product img{
+        width: 300px;
+    }
+    .polimodulator-page .page-banner{
+        min-height: auto;
+        padding-bottom: 100px;
+        position: relative;
+    }
+    .bioseptik-page .banner-product img{
+        width: 250px;
+    }
+    .bioseptik-page .page-banner{
+        min-height: auto;
+        height: auto;
+        padding-bottom: 100px;
+        position: relative;
+    }
+    .polimodulator-page .page-banner .page-title{
+        text-transform: uppercase;
+        color: #FFFFFF;
+        line-height: 58px;
+        font-size: 48px;
+        font-family: Times, Times New Roman, Georgia, serif;
+        font-weight: bold;
+    }
+    .bioseptik-page .page-banner .page-title{
+        text-transform: uppercase;
+        line-height: 58px;
+        font-size: 48px;
+        font-family: Times, Times New Roman, Georgia, serif;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+    .bioseptik-page .banner-product{
+        padding-top: 0;
+    }
+    .polimodulator-page .page-banner .page-sub{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 31px;
+    font-size: 26px;
+    font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+        position: absolute;
+        bottom: 200px;
+        left: 50px;
+        padding-left: 0;
+        max-width: 380px;
+}
+    .polimodulator-page .banner-product{
+        padding-top: 0;
+        padding-right: 50px;
+    }
+    .bioseptik-page .banner-product .page-sub{
+        font-size: 32px;
+        line-height: 38px;
+        margin-top: 100px;
+    }
+    .bioseptik-page .page-banner{
+        padding-bottom: 50px;
+    }
+    .bioseptik-page .banner-product h4{
+        font-size: 22px;
+        line-height: 29px;
+    }
+    .biotermion-page .page-banner .page-title{
+        margin-bottom: 150px;
+    }
+    .biotermion-page .banner-product .page-sub{
+        margin-top: 0;
+    }
+    .g-left, .g-right{
+        display: none;
+    }
+    .gidroplazma-content{
+        justify-content: flex-end;
+    }
+    .balzam-page .banner-product p{
+        font-size: 20px;
+        line-height: 26px;
+        padding-top: 0;
+    }
+    .balzam-page .banner-product{
+        flex-direction: column-reverse;
+        padding-top: 30px;
+    }
+    .balzam-page .page-banner{
+        background-position: center;
+    }
+    .balzam-page .page-banner .page-title{
+        margin-bottom: 40px;
+    }
+    .balzam-page .page-banner .page-sub{
+        margin-bottom: 60px;
+    }
+    .balzam-page .page-banner .banner-product img{
+        position: static;
+        margin-top: 0;
+    }
+.buy{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.balzam-page .buy-img img{
+    width: 250px;
+}
+    .braslet-page .page-banner .page-sub{
+        color: #fff;
+    }
+    .manjet-page .page-banner .page-title{
+
+        line-height: 36px;
+        font-size: 30px;
+        text-align: left;
+        padding-left: 100px;
+    }
+    .manjet-page .page-banner .banner-product p{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .manjet-page .page-banner h4{
+    color: #FFFFFF;
+    line-height: 29px;
+    font-size: 24px;
+}
+
 }
 @media screen and (max-width: 900px){
+
+    .polimodulator-page .page-banner .page-title{
+        margin-top: 0;
+        padding-top: 50px;
+        padding-left: 150px;
+    }
+    .bioseptik-page .page-banner .page-title{
+        margin-top: 0;
+        padding-top: 50px;
+        padding-left: 150px;
+        max-width: 400px;
+    }
+    .piramida-page .page-banner .page-title{
+        margin-top: 0;
+        padding-top: 50px;
+        padding-left: 100px;
+        text-align:left;
+        font-size:30px;
+        line-height: 38px;
+    }
+    .piramida-page .page-banner .page-sub{
+        margin-top: 0;
+        padding-left: 100px;
+        text-align:left;
+        font-size:30px;
+        line-height: 36px;
+        font-family: Times, Times New Roman, Georgia, serif;
+    }
+    .piramida-page .page-banner{
+        min-height: auto;
+        height: auto;
+        padding-bottom: 100px;
+    }
+    .piramida-page .page-content .page-title{
+            font-size: 28px;
+        margin-top: 30px;
+    }
+    .page-content ul, .page-content ol{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .piramida-page .page-banner .banner-logo{
+        display:none
+    }
+
+    .polimodulator-page .page-banner .banner-logo{
+        display: flex;
+        width: 320px;
+        height: 123px;
+    }
+    .bioseptik-page .page-banner .banner-logo{
+        display: flex;
+        width: 320px;
+        height: 123px;
+    }
+    .bioprofirin-banner .banner-left .banner-logo{
+        display: flex;
+        width: 320px;
+        height: 123px;
+    }
+    .bioprofirin-banner  .banner-left img{
+        width: 250px;
+    }
+    .bioprofirin-banner .banner-content{
+        position:relative;
+    }
+    .bioprofirin-banner .banner-sub{
+       position: absolute;
+        bottom: 0;
+        left: 50px;
+        padding-left: 0;
+        text-align: left;
+        max-width: 400px;
+        line-height: 31px;
+        padding-right: 40px;
+        font-size: 26px;
+    }
+    .gidroplazma-content .g-center img{
+        width: 250px;
+    }
+    .bioprofirin-banner{
+
+        min-height: auto;
+    }
+    .bioprofirin-content .breadcrumbs{
+        display:none
+    }
+    .bioprofirin-banner .banner-title{
+        line-height: 58px;
+        font-size: 48px;
+        font-family: Times, Times New Roman, Georgia, serif;
+        color: #fff;
+    }
+    .gidroplazma-banner .page-banner .banner-logo img{
+        width: 250px;
+    }
+    .bioseptik-page .page-banner .banner-logo img{
+        width: 250px;
+    }
+    .polimodulator-page .page-banner{
+        padding-bottom: 50px;
+    }
+    .polimodulator-page .banner-product img{
+        margin-top: -50px;
+    }
+    .bioseptik-page .banner-product img{
+        margin-top: -50px;
+    }
+    .polimodulator-page .breadcrumbs{
+        display: none;
+    }
+    .bioseptik-page .breadcrumbs{
+        display: none;
+    }
+    .biotermion-page .page-banner .page-title{
+        margin-bottom: 0;
+        color: #fff;
+        margin-left: 150px ;
+        padding-top: 0px;
+
+    }
+    .piramida-vnaz-page .breadcrumbs{
+        display: none;
+    }
+    .buy-content{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .buy-content img{
+        width: 250px;
+    }
     .nav-with-home .nav-content{
         padding-left: 60px;
     }
@@ -895,7 +1257,94 @@
         padding-left: 20px;
         padding-right: 20px;
     }
+    .isntruction-page .page-banner{
+        height: auto;
+        background: none;
+        border-bottom: 0;
 
+    }
+    .isntruction-page .page-content{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .rekomendacii .breadcrumbs{
+        display: none;
+    }
+    .rekomendacii .page-title{
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .rekomendacii .page-sub{
+        color: #164193;
+        line-height: 29px;
+        text-align: center;
+        font-size: 24px;
+        font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+    }
+    .video-page .page-title{
+        font-size: 20px;
+        line-height: 24px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .video-page .page-sub{
+        display: none;
+    }
+    .video-item{
+        width: calc(100% / 2 - 25px);
+    }
+    .video-item .video-title{
+        font-size: 16px;
+        padding-right: 0;
+    }
+    .documents-page .breadcrumbs{
+        display: none;
+    }
+    .about-author .breadcrumbs{
+        display:none;
+    }
+    .about-author .page-title{
+        margin-top: 100px;
+    }
+    .balzam-page .page-banner{
+        height: 590px;
+        min-height: unset;
+    }
+    .balzam-page .page-banner .page-title{
+        width: 100%;
+        max-width: 100%;
+        padding-top: 0;
+        color: #2E3192
+    }
+    .balzam-page .page-banner .page-sub{
+        margin-top: 150px;
+        text-align: left;
+        color:#fff;
+        padding-left: 30px;
+        margin-bottom: 0;
+        line-height: 29px;
+        font-size: 24px;
+    }
+    .balzam-page .page-banner p{
+        line-height: 22px;
+        text-align: justify;
+        font-size: 18px;
+    }
+    .balzam-page .page-content .page-title{
+        margin-top: 130px;
+    }
+    .braslet-page .page-banner .page-sub{
+        margin-left: 0;
+    }
+    .braslet-page .page-banner .banner-product img{
+        width: 300px;
+    }
+    .braslet-page .page-content{
+        margin-top: 100px;
+    }
+    .balzam-page .page-banner .page-title{
+        padding-right: 50px;
+    }
 }
 @media screen and (max-width: 800px){
     .banner-title{
@@ -1159,11 +1608,23 @@
         max-width: 500px;
         width: 100%;
     }
+    .braslet-page .page-banner .page-sub{
+        margin-top: 100px;
 
+    }
+    .braslet-page .page-banner .page-title{
+        padding-left:0
+
+    }
 }
 
 @media screen and (max-width: 768px){
-
+    .piramida-page .page-banner .page-title{
+        padding-left: 0;
+    }
+    .piramida-page .page-banner .page-sub{
+        padding-left: 0;
+    }
     .social-whatsapp{
         white-space: nowrap;
     }
@@ -1238,8 +1699,115 @@
         font-size: 20px;
         line-height: 24px;
     }
+    .isntruction-page .page-text{
+        text-align: left;
+    }
+    .isntruction-page .page-sub{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .documents{
+        flex-direction: column;
+        align-items: center;
+    }
+    .document-item img{
+        margin: 0 auto;
+        display: block;
+    }
+    .documents-page .page-sub{
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .page .documents-page .page-title{
+        font-size: 28px
+    }
+    .polimodulator-page .banner-product img{
+        width: 250px;
+    }
+    .bioseptik-page .banner-product img{
+        width: 150px;
+    }
+    .polimodulator-page .page-banner .page-sub{
+        max-width: 300px;
+        bottom: 100px;
+    }
+    .polimodulator-page .page-banner .banner-logo{
+        height: 80px;
+        width: 200px;
+    }
+    .bioprofirin-banner .banner-content .banner-logo{
+        height: 80px;
+        width: 200px;
+    }
+    .bioprofirin-banner .banner-title{
+        padding-left: 150px;
+        white-space: wrap;
+        text-align: left;
+    }
+    .polimodulator-page .page-banner .page-title{
+        padding-top: 30px;
+        padding-left: 100px;
+    }
+    .bioseptik-page .page-banner .banner-logo{
+        height: 80px;
+        width: 200px;
+    }
+    .bioseptik-page .page-banner .page-title{
+        padding-top: 30px;
+        margin: 0 auto;
+        font-size: 40px;
+        padding-left: 0;
+        text-align: left;
+        padding-top: 0;
+    }
+    .bioseptik-page .page-banner{
+        padding-bottom: 187px;
+    }
+    .bioseptik-page .banner-product img{
+        margin-top: -100px;
+    }
+    .bioseptik-page .banner-product .page-sub{
+       margin-top: 150px;
+        text-align: left;
+    }
+    .biotermion-page .page-banner{
+        padding-bottom: 0;
+        height: 630px;
+    }
+    .biotermion-page .banner-product .page-sub{
+        font-size:26px;
+        max-width:440px;
+    }
+    .biotermion-page .banner-product img{
+        width: 250px;
+        margin-top: -50px;
+    }
+    .balzam-page .page-banner .page-title{
+        text-align: center;
+    }
+    .balzam-page .page-banner .banner-product img{
+        width: 250px;
+        margin-top: 30px;
+    }
+    .balzam-page .page-banner .page-sub{
+        margin-top: 170px;
+    }
+    .balzam-page .page-banner .banner-product img{
+        width: 300px;
+    }
+    .bioseptik-page .buy-content{
+        gap: 30px;
+    }
 }
 @media screen and (max-width: 660px){
+    .bioprofirin-banner .banner-content{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .bioprofirin-banner .banner-sub{
+        left: 20px;
+        padding-right: 50px;
+    }
     .social-whatsapp {
 
         padding-left: 40px;
@@ -1641,8 +2209,200 @@
         padding-left: 0;
         padding-right: 0;
     }
+    .video-item{
+        width: 100%;
+    }
+    .page .page-title{
+        font-size: 20px;
+    }
+    .polimodulator-page .page-banner .banner-logo{
+        display: none;
+    }
+    .bioseptik-page .page-banner .banner-logo{
+        display: none;
+    }
+    .polimodulator-page .page-banner .page-title{
+        font-size: 22px;
+        text-align: center;
+        padding-left: 0;
+        color: #1B1464;
+        line-height: 26px;
+    }
+    .bioseptik-page .page-banner .page-title{
+        font-size: 22px;
+        text-align: center;
+        padding-left: 0;
+        color: #fff;
+        line-height: 26px;
+        padding-top: 50px;
+    }
+    .polimodulator-page .page-banner .page-sub{
+        position: static;
+        left: unset;
+        top: unset;
+        max-width: 100%;
+        text-align: center;
+        font-size: 18px;
+        color: #1B1464;
+        line-height: 22px;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    .bioseptik-page .page-banner .page-sub{
+
+        font-size: 18px;
+        color: #fff;
+        line-height: 22px;
+        margin-top: 120px;
+        font-weight: bold;
+    }
+    .polimodulator-page .banner-product img{
+        width: 200px;
+        margin-top: 0;
+    }
+    .bioseptik-page .banner-product img{
+        margin-top: 0;
+        width: 100px;
+    }
+    .polimodulator-page .page-banner{
+        padding-bottom: 0;
+        height: 380px;
+    }
+    .bioseptik-page .page-banner{
+        height: 370px;
+        background-position: center center;
+        padding-bottom: 0;
+    }
+    .buy-text .section-title{
+        font-size: 16px;
+    }
+    .bioseptik-page .banner-product h4{
+        font-size: 18px;
+    }
+    .buy .btn-blue{
+        width: calc(100% - 20px);
+        font-size: 16px;
+    }
+    .buy-content img{
+        width: 200px;
+    }
+    .piramida-page .page-banner .page-title{
+        text-align: center;
+        font-size: 24px;
+        color: #0E4194;
+        line-height: 29px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    .piramida-page .page-banner .page-sub{
+    font-size: 20px;
+    color: #2E3192;
+    line-height: 24px;
+        text-align: center;
+        font-weight: bold;
+}
+    .piramida-vnaz-page .banner-product img{
+        width: 240px;
+    }
+    .piramida-page .page-content .page-title{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .piramida-page .page-content .page-sub{
+        text-align: center;
+    }
+    .piramida-vnaz-page .page-content h2:last-child{
+        font-size:20px
+    }
+    .biotermion-page .page-banner .page-title{
+        color: #1B1464;
+    }
+    .biotermion-page .page-banner{
+        height: 400px;
+    }
+    .bioseptik-page.biotermion-page .page-banner .page-sub{
+        color: #1B1464;
+        margin-top: 30px;
+    }
+
+    .biotermion-page .banner-product{
+        flex-direction:column;
+    }
+    .biotermion-page .banner-product img{
+        width: 200px;
+    }
+    .bioprofirin-banner .banner-sub{
+        position: static;
+        left: unset;
+        top: unset;
+        line-height: 22px;
+        font-size: 18px;
+        text-align: center;
+        margin: 0 auto;
+        padding-right: 0;
+    }
+    .bioprofirin-banner .banner-content .banner-logo{
+        display: none;
+    }
+    .bioprofirin-banner .banner-title{
+        padding-top: 30px;
+        text-align: center;
+        font-size:24px;
+        line-height: 29px;
+        padding-left: 0;
+        color: #0D3D8D;
+    }
+    .bioprofirin-banner{
+        height: 416px;
+    }
+    .gidroplazma-content .g-center img{
+        width: 150px;
+        margin-right: 50px;
+    }
+    .mob-none{
+        display: none;
+    }
+    .balzam-page .page-banner p{
+        display: none;
+    }
+    .balzam-page .page-banner .page-sub{
+        margin-top: 30px;
+        text-align: center;
+        padding-left: 0;
+    }
+    .braslet-page .page-banner{
+        height: 400px;
+    }
+    .braslet-page .page-banner .banner-product img{
+        width: 300px;
+    }
+    .braslet-page .page-content .page-title{
+        margin-top: 30px;
+    }
+    .bioseptik-page .buy-content{
+        gap:30px
+    }
 }
 @media screen and (max-width: 480px){
+    .braslet-page .page-banner .page-title{
+        color: #2E3192;
+        font-size: 24px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .braslet-page .page-banner{
+        background-position: center top;
+        height: 360px;
+    }
+    .braslet-page .page-banner .banner-product img{
+        margin-top: 0;
+    }
+    .braslet-page .page-banner .page-sub{
+        margin-top: 140px;
+    }
+    .braslet-page .page-content{
+        margin-top: 140px;
+    }
     .page .page-text{
         font-size: 16px;
         line-height: 20px;
@@ -1653,7 +2413,7 @@
 
     }
 
-    .banner{
+    .banner:not(.gidroplazma-banner){
         background: url('../images/m-head.jpg') no-repeat;
         background-position: top center;
         background-size: contain;
@@ -1833,7 +2593,11 @@
     .contacts  .page-content {
         gap: 20px;
     }
-
+    .about-author .text-with-img img{
+        float: none;
+        margin: 0 auto 20px;
+        display: block;
+    }
     .contact-left h2{
         display: none;
     }
@@ -1900,7 +2664,19 @@
         background-size: cover;
         border-bottom: 0;
     }
+    .isntruction-page .page-banner{
+        height: 200px;
+        background: url('../images/m-head-gp-01.jpg') no-repeat center center;
+        background-size: cover;
+        border-bottom: 0;
+    }
     .dozirovka-page .page-banner .page-title{
+        margin-top: 0;
+        font-size: 24px;
+        line-height: 28px;
+        padding-top: 50px;
+    }
+    .isntruction-page .page-banner .page-title{
         margin-top: 0;
         font-size: 24px;
         line-height: 28px;
@@ -1910,6 +2686,56 @@
         float: none;
         margin: 0 auto 10px;
         display: block;
+    }
+    .isntruction-page .page-content{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .isntruction-page  .text-with-img{
+        display: flex;
+        flex-direction: column;
+    }
+    .isntruction-page .text-with-img img{
+        width: 150px;
+        margin: 0 auto 20px;
+        display: block;
+    }
+    .isntruction-page .page-sub{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .rekomendacii .page-title{
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .rekomendacii .page-content-right img{
+        width: 180px;
+    }
+    .rekomendacii .page-text-red{
+        padding: 0;
+    }
+    .rekomendacii .page-sub{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .bioseptik-page .banner-product img{
+        width: 80px;
+    }
+    .bioseptik-page .banner-product h4{
+        padding-right: 30px;
+    }
+    .biotermion-page .banner-product img{
+        width: 200px;
+    }
+    .biotermion-page .banner-product .page-sub{
+        max-width: 100%;
+        text-align:center
+    }
+    .biotermion-page .banner-product{
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 @media screen and (max-width: 425px){
@@ -1973,8 +2799,11 @@
     }
 }
 @media screen and (max-width: 320px) {
+.bioprofirin-content .page-title{
+    margin-top: 20px;
+}
 
-    .banner{
+    .banner:not(.gidroplazma-banner){
         padding-top: 150px;
     }
     .banner-text{
@@ -2037,4 +2866,8 @@
     .partners .page-title{
         margin-top: 20px;
     }
+    .braslet-page .page-banner .page-sub {
+        margin-top: 120px;
+    }
+
 }
