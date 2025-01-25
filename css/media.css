@@ -4,6 +4,32 @@
         background-position: center top;
     }
 }
+@media screen and (max-width: 1300px){
+    .who-need-content{
+        padding-left: 20px;
+    }
+    .who-need{
+        overflow: hidden;
+    }
+    .author-text p:last-child{
+        padding-right: 250px;
+    }
+    .gidroplazma-page .author-text p:last-child:after{
+        right: 0;
+    }
+    .gidroplazma-page .product-info{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .gidroplazma-banner .breadcrumbs-list{
+        margin-top: 190px;
+        padding-left: 20px;
+    }
+    .product-features{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
 @media screen and (max-width: 1200px){
     .gidroplazma-content{
         padding-left: 20px;
@@ -166,6 +192,30 @@
         padding-left: 20px;
         padding-right: 20px;
     }
+    .gidroplazma-page .breadcrumbs{
+        display: none;
+    }
+    .gidroplazma-page .product-info{
+        margin-top:250px;
+    }
+    .product-feature-item{
+        display: flex;
+        flex-direction: column;
+    }
+    .product-feature-title-content{
+        margin-top: auto;
+    }
+    .gidroplazma-page .author-text p:last-child:after{
+        display: none;
+    }
+    .gidroplazma-page .product-author .author-text p{
+        padding-right: 0;
+    }
+    .gidroplazma-page .author-text p:last-child{
+        color: #000;
+        padding-right: 0;
+    }
+
 }
 @media screen and (max-width: 1024px){
     .header-top{
@@ -376,6 +426,65 @@
         margin-bottom: 50px;
     }
     .bioprofirin-content{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .product-feature-item{
+        width: calc(100%/2 - 10px);
+    }
+    .who-item{
+        width: calc(100%/2 - 10px);
+    }
+    .who-need .who-text p:last-child{
+        min-height: 149px;
+        font-size:18px
+    }
+    .who-need-content{
+        padding-right: 20px;
+    }
+    .who-item:nth-child(3) img {
+        margin-top: -40px;
+    }
+    .who-item:nth-child(3) .who-title{
+        top: 0;
+        right: 176px;
+    }
+    .for-partners{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .for-partners img{
+        width: 300px;
+    }
+    .effects{
+        padding-left: 50px;
+        padding-right: 20px;
+    }
+    .effects-content .section-title{
+        padding-left: 50px;
+        padding-right: 20px;
+    }
+    .effects-content .section-text{
+        padding-left: 50px;
+        padding-right: 20px;
+    }
+    .primeneniya{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .delivery{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .review{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .gidroplazma-page .buy{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .features-products{
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -676,25 +785,192 @@
     .braslet-page .page-banner .page-sub{
         color: #fff;
     }
-    .manjet-page .page-banner .page-title{
-
+    .manjet-page .page-banner{
+        height: 670px;
+        background-position: bottom;
+    }
+    .manjet-page .page-banner .page-sub{
+        margin-left: 0;
+        text-align: left;
+        padding-left: 100px;
+        max-width: 500px;
+    }
+    .bioseptik-page.manjet-page .page-banner .page-title{
+        color:#fff;
         line-height: 36px;
         font-size: 30px;
         text-align: left;
         padding-left: 100px;
+        margin-top: 180px;
     }
-    .manjet-page .page-banner .banner-product p{
+    .bioseptik-page.manjet-page .page-banner .banner-product p{
         font-size: 18px;
         line-height: 22px;
+        padding-left: 80px;
+        padding-top: 40px;
     }
-    .manjet-page .page-banner h4{
+    .bioseptik-page.manjet-page .page-banner h4{
     color: #FFFFFF;
     line-height: 29px;
     font-size: 24px;
+        text-align: left;
+        margin-left: 0;
+        padding-left: 100px;
+
 }
+    .bioseptik-page.manjet-page .page-banner .banner-product img{
+        width: 280px;
+        right: 50px;
+        top: auto;
+        bottom: 150px;
+    }
+    .gidroplazma-banner .banner-title{
+        margin-top: 100px;
+    }
+
 
 }
 @media screen and (max-width: 900px){
+    .gidroplazma-banner{
+        background: none;
+        position: relative;
+
+    }
+    .gidroplazma-banner:before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 970px;
+        width: 100%;
+        background: url('../images/head-u18528-fr.jpg') no-repeat top;
+        background-size: cover;
+        z-index: 0;
+    }
+    .gidroplazma-banner .banner-form{
+        display: flex;
+        margin-top: 50px;
+    }
+    .gidroplazma-page .author{
+        margin-bottom: 0;
+    }
+    .gidroplazma-page .product-info{
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    .gidroplazma-page  .product-info p{
+    font-size: 18px;
+    text-align: justify;
+    color: #4C4C4C;
+    line-height: 22px;
+}
+    .gidroplazma-page  .product-info .product-title{
+    font-size: 22px;
+    line-height: 26px;
+}
+    .gidroplazma-page  .product-info div:last-child p{
+        padding-left: 100px;
+    }
+    .gidroplazma-page .section-title{
+        font-size: 22px;
+        line-height: 26px;
+    }
+ .gidroplazma-page .product-author .author-title{
+     font-size: 22px;
+     line-height: 26px;
+     text-align: center;
+     margin-bottom: 30px;
+ }
+    .who-need{
+        background-position: right bottom;
+    }
+    .product-features-list{
+        gap: 20px
+    }
+    .gidroplazma-page .buy-text p{
+        font-size:16px;
+        line-height: 19px;
+    }
+    .gidroplazma-page .buy-text h4{
+        font-size:16px;
+        line-height: 19px;
+    }
+    .gidroplazma-page .review-text p{
+        font-size:16px;
+        line-height: 19px;
+    }
+    .effects-content .section-text{
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .effects-content .section-title{
+        color:#0D3D8D
+
+    }
+    .gidroplazma-banner{
+        padding-bottom: 30px;
+    }
+    .for-partners .become-partner{
+        max-width: 100%;
+        width: 100%;
+        line-height: 29px;
+        font-size: 24px;
+    }
+    .effects{
+        padding-left: 20px;
+    }
+    .effects li{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .delivery-item h4{
+        font-size:16px;
+    }
+    .features-products{
+        display: none;
+    }
+    .gidroplazma-banner .gidroplazma-content{
+        justify-content: flex-start;
+    }
+    .gidroplazma-banner .banner-title{
+        width: 500px;
+        margin-left: auto;
+        font-size: 36px;
+        line-height: 43px;
+        color: #000000;
+        margin-bottom: 50px;
+        text-align: left;
+        margin-top: 50px;
+    }
+    .gidroplazma-banner .container{
+        position: relative;
+        z-index:1
+    }
+    .gidroplazma-banner .banner-sub{
+        width: 500px;
+        margin-left: auto;
+        font-size: 30px;
+        line-height: 36px;
+        color: #000000;
+        margin-bottom: 30px;
+        text-align: left;
+
+    }
+    .gidroplazma-banner .banner-features-title{
+        width: 500px;
+        margin-left: auto;
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 30px;
+        text-align: left;
+        margin-top: 50px;
+    }
+    .gidroplazma-banner .gidroplazma-content .g-center img{
+        position: absolute;
+        top: 50px;
+        width: 250px;
+    }
 
     .polimodulator-page .page-banner .page-title{
         margin-top: 0;
@@ -1345,8 +1621,49 @@
     .balzam-page .page-banner .page-title{
         padding-right: 50px;
     }
+    .bioseptik-page.manjet-page .page-banner .banner-product img{
+        bottom: 250px;
+    }
+    .bioseptik-page.manjet-page .page-banner .page-title{
+        padding-left: 50px;
+        margin-top: 135px;
+    }
+    .manjet-page .page-banner .page-sub{
+        padding-left: 50px;
+    }
+    .bioseptik-page.manjet-page .page-banner h4{
+        padding-left: 50px;
+    }
+    .bioseptik-page.manjet-page .page-banner .banner-product p{
+        padding-left: 50px;
+        padding-top: 20px;
+        max-width: 100%;
+        padding-right: 30px;
+    }
+    .manjet-page .page-banner .banner-product{
+        padding-left: 0;
+    }
 }
 @media screen and (max-width: 800px){
+    .gidroplazma-banner .banner-content{
+        padding-right: 10px;
+    }
+    .gidroplazma-banner .gidroplazma-content .g-center img{
+        width: 200px;
+    }
+    .for-partners img{
+        width: 200px;
+    }
+    .product-author iframe{
+        width: 234px;
+    }
+    .gidroplazma-page .product-author .author-text h4, .gidroplazma-page .product-author .author-text h6{
+        margin-left: 0;
+    }
+    .who-item:nth-child(3) .who-title {
+        top: 0;
+        right: 44px;
+    }
     .banner-title{
         font-size: 36px;
         line-height: 43px;
@@ -1798,6 +2115,101 @@
     .bioseptik-page .buy-content{
         gap: 30px;
     }
+    .bioseptik-page.manjet-page .page-banner .page-title {
+        padding-left: 50px;
+        margin-top: 233px;
+        text-align: left;
+        margin-left: 0;
+    }
+    .bioseptik-page.manjet-page .page-banner .banner-product img {
+        bottom: 210px;
+        right: 10px;
+    }
+}
+@media screen and (max-width: 700px){
+    .delivery-list{
+        flex-wrap: wrap;
+        gap: 30px
+    }
+    .delivery-item{
+        width: calc(100%/2 - 30px);
+    }
+    .primeneniya-list{
+        flex-direction: column;
+        gap: 0;
+    }
+    .effects{
+        flex-direction: column;
+        gap: 0;
+    }
+    .effects-content p:last-child{
+        display: none;
+    }
+    .effects-content .section-text{
+        display:none;
+    }
+    .primeneniya-list img{
+        width: 250px;
+    }
+    .gidroplazma-banner .gidroplazma-content .g-center img{
+        position: static;
+    }
+    .gidroplazma-banner .gidroplazma-content{
+        justify-content: center;
+    }
+    .gidroplazma-banner .banner-title{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    .gidroplazma-banner .banner-sub{
+        width: 100%;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .product-feature-item{
+        width: 100%;
+    }
+    .gidroplazma-banner .banner-features{
+        flex-wrap: wrap;
+    }
+    .gidroplazma-banner .feature-item{
+        width: calc(100%/2 - 20px);
+
+    }
+    .gidroplazma-banner  .feature-title{
+        color: #0D3D8D;
+    }
+    .gidroplazma-banner .banner-features-title{
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: 10px;
+    }
+    .who-item{
+        width: 100%;
+
+    }
+    .who-need{
+        background-size: cover;
+    }
+    .who-item:nth-child(3) .who-title{
+        right: auto;
+        left: 170px;
+    }
+    .who-need-content{
+        padding-bottom: 250px;
+    }
+    .for-partners{
+        display:none
+    }
+    .product-effects{
+        margin-top: 0;
+    }
 }
 @media screen and (max-width: 660px){
     .bioprofirin-banner .banner-content{
@@ -1848,6 +2260,22 @@
     }
     .catalog .btn-blue{
         max-width: 380px;
+    }
+    .bioseptik-page.manjet-page .page-banner .page-title{
+        padding-left: 10px;
+        margin-top: 180px;
+    }
+    .bioseptik-page.manjet-page .page-banner .page-sub{
+        padding-left: 10px;
+    }
+    .bioseptik-page.manjet-page .page-banner h4{
+        padding-left: 10px;
+    }
+    .bioseptik-page.manjet-page .page-banner .banner-product p{
+        padding-left: 10px;
+    }
+    .bioseptik-page.manjet-page .page-banner .banner-product img{
+        width: 200px;
     }
 }
 @media screen and (max-width: 600px){
@@ -2382,6 +2810,48 @@
     .bioseptik-page .buy-content{
         gap:30px
     }
+    .bioseptik-page.manjet-page .page-banner .page-title{
+        margin-top: 0;
+        text-align: center;
+        width: 100%;
+        max-width: 100%;
+        font-size: 30px;
+        color: #2E3192;
+        padding-top: 20px;
+    }
+    .manjet-page .page-banner .banner-product{
+        flex-direction: column-reverse;
+    }
+    .bioseptik-page.manjet-page .page-banner .banner-product img{
+        position: static;
+    }
+    .bioseptik-page.manjet-page .page-banner .page-sub{
+        margin-top: 20px;
+        text-align: center;
+        font-size: 18px;
+        color: #000000;
+        margin-bottom: 10px;
+    }
+    .bioseptik-page.manjet-page .page-banner h4{
+        margin-top: 20px;
+        text-align: center;
+        font-size: 18px;
+        color: #000000;
+        margin-top: 0;
+    }
+    .bioseptik-page.manjet-page .page-banner .banner-product p{
+        display: none;
+    }
+    .bioseptik-page .page-banner{
+        overflow: visible;
+    }
+    .manjet-page .page-content .page-title{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .manjet-page .buy-img img{
+        width: 200px;
+    }
 }
 @media screen and (max-width: 480px){
     .braslet-page .page-banner .page-title{
@@ -2432,7 +2902,7 @@
     display: flex;
     flex-direction: column;
 }
-    .banner-content{
+    .banner-content:not(.gidroplazma-banner .banner-content){
         order: 1;
         padding-top: 0;
     }
@@ -2440,10 +2910,10 @@
         order: 4;
         margin-top: 100px;
     }
-    .banner-info{
+    .banner-info:not(.gidroplazma-banner .banner-info){
         order: 2;
     }
-    .banner-features{
+    .banner-features:not(.gidroplazma-banner .banner-features){
         order: 3;
         padding-left: 10px;
         padding-right: 10px;
@@ -2737,6 +3207,103 @@
         padding-left: 10px;
         padding-right: 10px;
     }
+    .bioseptik-page.manjet-page .page-banner .page-sub{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .bioseptik-page.manjet-page .page-banner h4{
+        padding-left: 50px;
+        padding-right: 50px;
+        color:#fff;
+        margin-top: 65px;
+    }
+    .manjet-page .page-content{
+        margin-top: 150px;
+    }
+    .gidroplazma-banner:before{
+        background: url('../images/m-head.jpg') no-repeat center top;
+        background-size: cover;
+        top: -60px;
+    }
+    .gidroplazma-banner .banner-content{
+        padding-left: 0;
+    }
+    .gidroplazma-banner .banner-title{
+        font-size: 42px;
+        line-height: 50px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #0059A3;
+        margin-top: 150px;
+        margin-bottom: 20px;
+    }
+    .gidroplazma-banner .banner-sub{
+        font-size: 24px;
+        line-height: 29px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #1B1464;
+    }
+    .gidroplazma-banner .banner-features-title{
+    line-height: 34px;
+    font-size: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Times, Times New Roman, Georgia, serif;
+    font-weight: bold;
+}
+    .gidroplazma-banner .feature-item:first-child .feature-title{
+        color: #fff;
+    }
+    .gidroplazma-banner .feature-item:nth-child(2) .feature-title{
+        color: #fff;
+    }
+    .gidroplazma-page .product-info div:last-child p{
+        padding-left: 0;
+    }
+    .product-author .author-img img{
+        margin-bottom: 30px;
+    }
+    .product-author iframe {
+        width: 100%;
+    }
+    .product-effects{
+        background: url('../images/m-fon-gp-03.jpg') no-repeat center top;
+        background-size: cover;
+    }
+
+    .page li {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .effects-content .section-title{
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .effects ul{
+        padding-left: 0;
+    }
+    .primeneniya-list ul{
+        padding-left: 0;
+    }
+    .gidroplazma-page .review-item{
+        flex-direction: column;
+        align-items:center
+    }
+    .gidroplazma-page .review-item:first-child,  .gidroplazma-page .review-item:nth-child(2){
+        display:none;
+    }
+    .gidroplazma-page .review-text{
+        width: 100%;
+    }
+    .gidroplazma-page .review:after{
+        top: 0;
+    }
+    .gidroplazma-page .buy-text h4.text-red{
+        text-align: center;
+    }
+
 }
 @media screen and (max-width: 425px){
     .banner-text{
@@ -2791,12 +3358,30 @@
     .contact-form .banner-top{
         margin-top: 20px;
     }
+    .gidroplazma-banner .banner-sub{
+        padding: 0 10px;
+    }
 
 }
 @media screen and (max-width: 355px){
+    .gidroplazma-banner .banner-title{
+        font-size: 30px
+    }
+    .gidroplazma-banner .gidroplazma-content .g-center img{
+        width: 150px;
+    }
     .banner-text {
         margin-top: 60px;
     }
+    .bioseptik-page.manjet-page .page-banner h4{
+        margin-top: 45px;
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+    .bioseptik-page.manjet-page .page-banner .banner-product img{
+        width: 170px;
+    }
+
 }
 @media screen and (max-width: 320px) {
 .bioprofirin-content .page-title{
