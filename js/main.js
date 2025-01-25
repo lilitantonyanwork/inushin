@@ -39,5 +39,36 @@ $(function (){
         $('.header-lang').toggleClass('open');
         $('.header-top-left').toggleClass('open');
     })
+    $('.banner-form button').on('click',function (e){
+        e.preventDefault();
+        let tel = $(this).parents('form').find('input[type="phone"]').val();
+        let name = $(this).parents('form').find('input[type="name"]').val();
+        let msg = $('#message').val();
+        let mail = $('#mail').val();
+        let otpravka = true;
+        if(tel ==""){
+            otpravka = false;
+        }
+        let dannie = {'polz_name':name,'polz_tel':tel,
+       'polz_mail': mail, 'polz_msg': msg  };
+        if(otpravka){
+            $.post('send.php', dannie, function(otvet){
 
+                if(otvet.status){
+                    $('.tel-popup').modal('hide');
+                    $('#statusModal .modal-body').text(otvet.text)
+                    $('#statusModal').modal('show');
+                } else{
+                    $('.alert').text(otvet.text)
+                    $('.alert').toggle();
+                    setTimeout(function (){
+                        $('.alert').toggle('');
+
+                    }, 3000)
+
+                }
+
+            }, 'json');
+        }
+    })
 })
