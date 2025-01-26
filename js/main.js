@@ -28,7 +28,6 @@ $(function (){
     });
     $('.btn-menu').on('click',function (){
        if(!$('.nav-content').hasClass('open')){
-           console.log('asdasda')
            $('.nav-content').addClass('open');
            $('.nav-content').css({ "max-height": $('.nav-content').find('.menu').outerHeight() + 'px' });
        } else {
