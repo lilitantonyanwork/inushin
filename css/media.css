@@ -736,14 +736,14 @@
         color: #FFFFFF;
         line-height: 58px;
         font-size: 48px;
-        font-family: Times, Times New Roman, Georgia, serif;
+        font-family:   "Times", "Times New Roman", "Georgia", serif;
         font-weight: bold;
     }
     .bioseptik-page .page-banner .page-title{
         text-transform: uppercase;
         line-height: 58px;
         font-size: 48px;
-        font-family: Times, Times New Roman, Georgia, serif;
+        font-family:   "Times", "Times New Roman", "Georgia", serif;
         font-weight: bold;
         margin-bottom: 0;
     }
@@ -1043,7 +1043,7 @@
         text-align:left;
         font-size:30px;
         line-height: 36px;
-        font-family: Times, Times New Roman, Georgia, serif;
+        font-family:   "Times", "Times New Roman", "Georgia", serif;
     }
     .piramida-page .page-banner{
         min-height: auto;
@@ -1107,7 +1107,7 @@
     .bioprofirin-banner .banner-title{
         line-height: 58px;
         font-size: 48px;
-        font-family: Times, Times New Roman, Georgia, serif;
+        font-family:   "Times", "Times New Roman", "Georgia", serif;
         color: #fff;
     }
     .gidroplazma-banner .page-banner .banner-logo img{
@@ -1533,7 +1533,7 @@
         font-size: 30px;
         color: #0E4194;
         line-height: 36px;
-        font-family: Times, Times New Roman, Georgia, serif;
+        font-family:   "Times", "Times New Roman", "Georgia", serif;
         font-weight: bold;
         margin-top: 130px;
         margin-bottom: 0;
@@ -1544,7 +1544,7 @@
         line-height: 26px;
         text-align: center;
         font-size: 22px;
-        font-family: Times, Times New Roman, Georgia, serif;
+        font-family:   "Times", "Times New Roman", "Georgia", serif;
         font-weight: bold;
         padding-left: 20px;
         padding-right: 20px;
@@ -1713,7 +1713,7 @@
     .banner-title{
         font-size: 36px;
         line-height: 43px;
-        font-family: Times, Times New Roman, Georgia, serif;
+        font-family:   "Times", "Times New Roman", "Georgia", serif;
         text-transform: uppercase;
         padding-left: 20px;
         font-weight: bold;
@@ -1728,7 +1728,7 @@
         line-height: 36px;
         text-transform: uppercase;
         padding-left: 20px;
-        font-family: Times, Times New Roman, Georgia, serif;
+        font-family:   "Times", "Times New Roman", "Georgia", serif;
         text-align: center;
     }
     .banner-text{
@@ -1902,7 +1902,7 @@
         text-align: justify;
         line-height: 18px;
         color: #4C4C4C;
-        font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+        font-family: "Arial", "Helvetica Neue", "Helvetica", sans-serif;
         font-weight: 400;
     }
     .piramida-info div:last-child p:first-child{
@@ -3014,7 +3014,7 @@
         height: 36px;
         margin: 0 auto;
         background: #0D3D8D;
-        font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+        font-family: "Arial", "Helvetica Neue", "Helvetica", sans-serif;
         width: fit-content;
         padding-left: 15px;
         padding-right: 15px;
@@ -3443,7 +3443,7 @@
     font-size: 28px;
     text-align: center;
     color: #FFFFFF;
-    font-family: Times, Times New Roman, Georgia, serif;
+    font-family:   "Times", "Times New Roman", "Georgia", serif;
     font-weight: bold;
 }
     .gidroplazma-banner .feature-item:first-child .feature-title{
