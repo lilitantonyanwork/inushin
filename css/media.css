@@ -2625,7 +2625,8 @@
         line-height: 22px;
     }
     .catalog .btn-blue{
-        font-size: 20px;
+        font-size: 24px;
+        white-space: nowrap;
     }
     .catalog .product-item{
         margin-bottom: 20px;
@@ -2797,6 +2798,10 @@
         margin-top: 30px;
         text-align: center;
         padding-left: 0;
+    }
+    .catalog .page-content{
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .braslet-page .page-banner{
         height: 400px;
