@@ -279,6 +279,7 @@ nav.sticky .nav-logo{
     text-transform: uppercase;
     text-align: center;
     color: #FFFFFF;
+    font-weight: 700;
     font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 }
 .form-input{
@@ -511,6 +512,7 @@ nav.sticky .nav-logo{
     font-family: Times, Times New Roman, Georgia, serif;
     margin-top: 5px;
     margin-bottom: 21px;
+    font-weight: bold;
 }
 .effect-title span{
     font-weight: 400;
@@ -747,25 +749,26 @@ nav.sticky .nav-logo{
     gap: 50px;
     padding-left: 50px;
 }
-.author-text h4{
+.author-text .h4{
     line-height: 36px;
     font-size: 30px;
     text-align: left;
     color: #484848;
-    font-family: Times, Times New Roman, Georgia, serif;
+    font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
     font-weight: bold;
     margin-bottom: 20px;
+
 }
-.author-text h6{
+.author-text .h6{
 
     line-height: 22px;
     font-size: 18px;
     text-align: left;
-    color: #0B6AC5;
+    color: #0B6AC5!important;
     font-family: Times, Times New Roman, Georgia, serif;
     font-weight: bold;
 }
-.author-text h6:nth-child(4){
+.author-text .h6:nth-child(4){
     margin-bottom: 10px;
 }
 .author-text p{
@@ -933,6 +936,17 @@ footer p:last-child{
     list-style: none;
     margin-top: 30px;
     padding: 0;
+}
+.gidroplazma-page .breadcrumbs-list{
+    max-width: 600px;
+    display: inline-block;
+
+}
+.gidroplazma-page .breadcrumbs-list .breadcrumbs-link,.gidroplazma-page .breadcrumbs-list span {
+    line-height: 22px;
+    font-size: 18px;
+    font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+    margin-right: 5px;
 }
 .breadcrumbs-item{
     line-height: 22px;
@@ -1150,7 +1164,7 @@ color: #800080;
     font-size: 24px;
     margin-bottom: 30px;
 }
-.rekomendacii h4{
+.rekomendacii h4, .rekomendacii h3, .rekomendacii h5{
     text-align: left;
     color: #484848;
     font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
@@ -1423,7 +1437,7 @@ color: #800080;
 .product-author .author-text p{
     padding-left: 0;
 }
-.product-author .author-text h4, .product-author .author-text h6{
+.product-author .author-text .h4, .product-author .author-text .h6{
     margin-left: -150px;
 }
 .product-author  .author-img img{
@@ -1558,6 +1572,16 @@ color: #800080;
     margin-top: 14px;
     font-weight: 400;
 }
+.bioseptik-page .banner-product h3{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 43px;
+    text-align: left;
+    font-size: 36px;
+    font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+    margin-top: 14px;
+    font-weight: 400;
+}
 .bioseptik-page .buy-content{
     justify-content: center;
     gap: 100px;
@@ -1609,7 +1633,7 @@ color: #800080;
 .piramida-vnaz-page .page-content {
     margin-bottom: 100px;
 }
-.piramida-vnaz-page .page-content h2:last-child{
+.piramida-vnaz-page .page-content h3:last-child{
     text-transform: uppercase;
     text-align: center;
     font-size: 26px;
@@ -1811,7 +1835,7 @@ color: #800080;
     margin-bottom: 30px;
     text-align: center;
 }
-.manjet-page .page-banner h4{
+.manjet-page .page-banner h2{
     text-transform: uppercase;
     color: #2E3192;
     line-height: 38px;
@@ -1865,7 +1889,7 @@ color: #800080;
     font-weight: bold;
     margin-bottom: 0;
 }
-.otziv-page  h4,.otziv-page  .page-sub{
+.otziv-page  h4, .otziv-page  h3,.otziv-page  .page-sub{
     font-size: 24px;
     text-align: left;
     line-height: 29px;
@@ -1917,20 +1941,23 @@ color: #800080;
     margin-bottom: 50px;
 }
 
-.news-item h4{
+.news-item h3{
     line-height: 26px;
     font-size: 22px;
-    font-family: Times, Times New Roman, Georgia, serif;
+    font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
 .news-item p{
     line-height: 26px;
     font-size: 22px;
-    font-family: Times, Times New Roman, Georgia, serif;
-
+    font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
     font-weight: 400;
     margin-bottom: 100px;
+}
+.news-item a:visited {
+    color: #800080;
+    text-decoration: underline;
 }
 .news-item a{
     color: #0000FF;
@@ -1983,6 +2010,27 @@ color: #800080;
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     margin-bottom: 20px;
 }
+.dozirovka-page .page-content h5{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.dozirovka-page .page-content h6{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.dozirovka-page .page-content h3{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
 .dozirovka-page .page-content {
     margin-bottom: 100px;
 }
@@ -2026,7 +2074,7 @@ color: #800080;
 .predstaviteli .page-title{
     margin-bottom: 40px;
 }
-.predstaviteli h2{
+.predstaviteli .h2{
     line-height: 36px;
     text-align: justify;
     font-size: 30px;
@@ -2034,7 +2082,7 @@ color: #800080;
     margin-bottom: 40px;
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 }
-.predstaviteli h2:last-child{
+.predstaviteli .h2:last-child{
     margin-bottom: 100px;
 }
 .call-request .page-banner{
@@ -2095,7 +2143,7 @@ color: #800080;
     justify-content: space-between;
     margin-bottom: 100px;
 }
-.home-en .partnership-content h2{
+.home-en .partnership-content .h2{
     text-transform: uppercase;
     color: #164193;
     font-family: Times, Times New Roman, Georgia, serif;
@@ -2103,7 +2151,7 @@ color: #800080;
     font-size: 26px;
     line-height: 31px;
 }
-.home-en .partnership-content h3{
+.home-en .partnership-content .h3{
     font-size: 24px;
     text-align: left;
     line-height: 29px;
@@ -2113,7 +2161,7 @@ color: #800080;
     color: #0059A3;
     margin-bottom: 30px;
 }
-.home-en .partnership-content h4{
+.home-en .partnership-content .h4{
     color: #484848;
     font-size: 24px;
     text-align: left;
@@ -2319,7 +2367,7 @@ color: #800080;
 .contact-left{
     padding-top: 10px;
 }
-.contact-left h2{
+.contact-left h1{
     text-transform: uppercase;
     text-align: right;
     font-size: 20px;
@@ -2407,12 +2455,13 @@ color: #800080;
     font-weight: bold;
     margin-bottom: 20px;
 }
-.contact-right h4{
+.contact-right .h4{
     color: #666666;
     line-height: 29px;
     font-size: 24px;
     font-family: Times, Times New Roman, Georgia, serif;
     margin-bottom: 30px;
+    font-weight: bold;
 }
 .contact-right p{
     color: #666666;
@@ -2558,7 +2607,7 @@ color: #800080;
     max-width: 1366px;
     margin: 0 auto;
 }
-.who-need .section-title{
+.gidroplazma-page .who-need .section-title{
     text-transform: uppercase;
     font-size: 30px;
     line-height: 36px;
@@ -2567,6 +2616,7 @@ color: #800080;
     font-weight: 400;
     margin-bottom: 20px;
     padding-top: 170px;
+    text-align: left;
 }
 .who-need p{
     font-size: 20px;
@@ -2715,7 +2765,7 @@ color: #800080;
     text-align: left;
     color: #0059A3;
     font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
-    font-weight: bold;
+    font-weight: 400;
 }
 .for-partners .btn-blue{
     margin-left: 100px;
@@ -2797,20 +2847,22 @@ color: #800080;
     font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
     margin-bottom: 20px;
 }
-.gidroplazma-page  .buy-text h4{
+.gidroplazma-page  .buy-text .h4{
     font-size: 24px;
     text-align: justify;
     color: #4C4C4C;
     line-height: 29px;
     font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
     margin-bottom: 20px;
+
 }
-.gidroplazma-page  .buy-text h4.text-red{
+.gidroplazma-page  .buy-text .h4.text-red{
     color: #C1272D;
     line-height: 31px;
     font-family: Times, Times New Roman, Georgia, serif;
     font-size: 26px;
     text-transform: uppercase   ;
+    text-align: left;
 }
 .gidroplazma-page .buy-text .actions{
     justify-content: center;
@@ -2871,13 +2923,16 @@ color: #800080;
     line-height: 22px;
     font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 }
-.gidroplazma-page  .review-text h4{
+.gidroplazma-page  .review-text .h4{
     font-size: 18px;
     text-align: left;
     line-height: 22px;
     font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
     font-weight: bold;
     margin-top: 20px;
+}
+.for-mob{
+    display: none;
 }
 .delivery .section-title{
     text-transform: uppercase;
@@ -2898,7 +2953,7 @@ color: #800080;
     gap:20px;
     align-items: center;
 }
-.delivery-item h4{
+.delivery-item p{
     text-transform: uppercase;
     font-size: 18px;
     text-align: center;
@@ -2999,7 +3054,7 @@ color: #800080;
     padding-left: 150px;
     max-width: 700px;
 }
-.primeneniya-content h4{
+.primeneniya-content .h4{
     font-size: 19px;
     text-align: justify;
     line-height: 23px;
@@ -3012,9 +3067,146 @@ color: #800080;
 }
 .gidroplazma-page .who-need .section-title{
     color: #fff;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+}
+.who-need-content{
+    margin-top: -140px;
 }
 
-.gidroplazma-banner .banner-form{
+.gidroplazma-banner:not(.bioprofirin-banner) .container > .banner-form{
     display: none;
+}
+.home-en .product-item-price{
+    font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+    font-size: 24px;
+}
+.home-en .product-item-text{
+    font-size: 24px;
+}
+.home-en li.effect-item{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    text-transform: unset;
+}
+
+.balzam-page .page-text, .balzam-page .page-text.page-sub{
+    line-height: 36px;
+    text-align: justify;
+    font-size: 30px;
+}
+
+.mb-40{
+    margin-bottom: 40px!important;
+}
+.bioprofirin-banner .banner-left{
+    width: 100%;
+}
+.bioprofirin-banner .banner-title{
+   text-align: center;
+}
+.bioprofirin-banner .banner-sub{
+    text-align: center;
+}
+.bioseptik-page .page-sub span{
+    font-weight: 400;
+}
+.braslet .page-sub{
+    line-height: 36px;
+    font-size: 30px;
+}
+.braslet li{
+    line-height: 36px;
+    font-size: 30px;
+}
+.mob-text {
+    display:none;
+}
+.faq-text a{
+    text-decoration: underline;
+}
+.faq-text a:hover{
+    color: #0000FF;
+}
+.dozirovka-page .page-banner .page-title{
+    font-family: Times, Times New Roman, Georgia, serif;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+.for-partners .section-title{
+    text-transform: uppercase;
+    font-size: 42px;
+    color: #0071BB;
+    line-height: 50px;
+    font-family: Times, Times New Roman, Georgia, serif;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.become-partner{
+    font-weight: 400;
+}
+.gidroplazma-page .certificate-title{
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 43px;
+    color: #0071BB;
+    font-family: Times, Times New Roman, Georgia, serif;
+}
+.gidroplazma-page .certificate-left p{
+    font-weight: 400;
+}
+
+.dozirovka-page .original .page-title{
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #0D3D8D;
+    font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+}
+.dozirovka-page .original a{
+    text-decoration: underline;
+}
+.dozirovka-page .original p, .dozirovka-page .original .page-sub{
+    font-size: 24px;
+    line-height: 29px;
+}
+.no-padding{
+    padding-left: 0!important;
+}
+.water-page .dozirovka-page .page-content .page-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22px;
+    color: #0D3D8D;
+    line-height: 26px;
+    font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+    font-weight: bold;
+}
+.water-page .dozirovka-page .page-content p, .water-page .dozirovka-page .page-content .page-sub{
+    line-height: 29px;
+    text-align: justify;
+    font-size: 24px;
+}
+.water-page .dozirovka-page .page-content .page-sub{
+    text-transform: uppercase;
+}
+.polimodulator-page .buy img{
+    width: 295px;
+}
+.polimodulator-page .buy-content{
+    justify-content: center;
+}
+.polimodulator-page  .page-text, .polimodulator-page  li{
+    font-size: 24px;
+    line-height: 29px;
+}
+.polimodulator-page  .page-sub{
+    font-size: 24px;
+    line-height: 29px;
+}
+.text-no-up{
+    text-transform: none;
 }
