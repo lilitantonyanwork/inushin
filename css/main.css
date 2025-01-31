@@ -867,6 +867,10 @@ footer p:last-child{
     align-items: center;
     margin-left: 0;
 }
+.social-contacts .social-tg.social-phone{
+    background: none;
+    padding-left: 0;
+}
 
 .btn-menu{
     display: none;

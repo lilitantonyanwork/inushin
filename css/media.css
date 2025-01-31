@@ -3140,7 +3140,7 @@
         padding-top: 100px;
     }
     .product-item:last-child{
-        display: flex;
+        display: flex!important;
     }
     .product-item-text{
         font-size: 18px;
@@ -3536,6 +3536,99 @@
         .gidroplazma-page .who-need .section-title{
             text-align: center;
         }
+            .social-contacts .social-item{
+            width: 66px;
+            height: 66px;
+        }
+        .social-contacts .social-whatsapp{
+            background: url('../images/1000-u100320-fr.png') no-repeat;
+            background-size: cover;
+        }
+        .social-contacts .social-tg{
+            background: url('../images/konakt-telegramm-mob.png') no-repeat;
+
+            background-size: cover;
+        }
+        .social-contacts{
+            justify-content: space-between;
+            margin-top: 50px;
+            margin-bottom: 40px;
+        }
+        .line{
+            display: none;
+        }
+        .footer-right p:first-child{
+            display: none;
+        }
+        .footer-right p{
+            line-height: 19px;
+            font-size: 16px;
+            text-align: center;
+            color: #4C4C4C;
+            font-family: Times, Times New Roman, Georgia, serif;
+            font-weight: bold;
+            margin-top: 23px;
+        }
+        .footer-socials-item:nth-child(3){
+            display: none;
+        }
+        .social-title{
+            display: block;
+            text-align: center;
+            font-size: 20px;
+            line-height: 24px;
+            text-transform: uppercase;
+            color: #7F7F7F;
+            font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+            font-weight: bold;
+            padding-top: 30px;
+        }
+        .social-contacts .social-tg.social-phone{
+            background: url('../images/phone-call.png') no-repeat;
+            text-indent: -9999999px;
+            width: 66px;
+            height: 66px;
+            padding-left: 0;
+        }
+        .footer-socials{
+            justify-content: space-between;
+        }
+        .footer-socials-item{
+            width: 50px;
+            height: 50px;
+        }
+        footer{
+            background: url('../images/m-fon-07.jpg') no-repeat center center;
+            background-size: cover;
+            padding-bottom: 20px;
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .mob-address{
+            display: block;
+        }
+        .footer-content{
+            gap: 10px;
+        }
+        .mob-address p{
+            line-height: 34px;
+            font-size: 28px;
+            text-align: center;
+            color: #4C4C4C;
+            font-family: Times, Times New Roman, Georgia, serif;
+            font-weight: bold;
+            margin-bottom: 0;
+        }
+        .home-form .form-title{
+            font-size: 22px;
+            line-height: 26px;
+            text-transform: uppercase;
+            text-align: center;
+            color: #FFFFFF;
+            font-family: Times, Times New Roman, Georgia, serif;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
 }
 @media screen and (max-width: 425px){
     .banner-text{
@@ -3616,7 +3709,7 @@
     .who-item:first-child .who-title {
         position: absolute;
         top: 43px;
-        left: 37px;
+        left: 45px;
         font-size: 24px;
     }
     .biotermion-page .page-banner .page-title{
@@ -3641,6 +3734,55 @@
     }
     .bioseptik-page.manjet-page .page-banner .banner-product img{
         width: 170px;
+    }
+    .who-item:nth-child(2) .who-title {
+        position: absolute;
+        top: 12%;
+        left: -16px;
+        font-size: 15px;
+        font-weight: 400;
+        width: 150px;
+        line-height: 22px;
+    }
+    .who-item:nth-child(3) .who-title {
+
+        left: auto;
+        font-size: 13px;
+        font-weight: 400;
+        right: 20%;
+        line-height: 22px;
+        width: 100px;
+        top: 0;
+    }
+    .who-item:nth-child(4) .who-title {
+        position: absolute;
+        top: -20px;
+        left: 20px;
+        font-size: 18px;
+        font-weight: 400;
+        width: 132px;
+    }
+    .who-item:nth-child(5) .who-title {
+        position: absolute;
+        top: 35px;
+        left: 0;
+        font-size: 15px;
+        font-weight: 400;
+        width: 132px;
+    }
+    .who-item:nth-child(6) .who-title {
+        position: absolute;
+        top: -25px;
+        left: 10px;
+        font-size: 14px;
+        font-weight: 400;
+        width: 132px;
+    }
+    .who-item:first-child .who-title {
+        position: absolute;
+        top: 36px;
+        left: 45px;
+        font-size: 19px;
     }
 
 }
