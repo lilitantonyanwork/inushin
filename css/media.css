@@ -3912,5 +3912,11 @@
    .home-en .banner{
        padding-top: 50px;
    }
-
+    .polimodulator-page .banner-product img {
+        width: 150px;
+    }
+    .catalog .btn-blue {
+        font-size: 22px;
+        white-space: nowrap;
+    }
 }
